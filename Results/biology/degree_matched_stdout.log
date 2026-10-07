@@ -1,0 +1,80 @@
+C3_strict {'set_size': 277, 'max_abs_standardized_mean_difference_log_degree': 0.21486995054347655, 'layerwise_standardized_mean_difference_log_degree': [0.015385367187897969, 0.10927683790826087, -0.04311041821593319, 0.08255572324319346, 0.21486995054347655]}
+C2_strict {'set_size': 180, 'max_abs_standardized_mean_difference_log_degree': 0.21210860818336494, 'layerwise_standardized_mean_difference_log_degree': [-0.053805954323262725, -0.03862430031770656, -0.21210860818336494, -0.03969354298069945, -0.14231418707955942]}
+C23_strict {'set_size': 541, 'max_abs_standardized_mean_difference_log_degree': 0.11446325398026909, 'layerwise_standardized_mean_difference_log_degree': [-0.008371550342150374, 0.0640056765390312, -0.11446325398026909, 0.028633170734650184, 0.05766414000067829]}
+C3_8of10 {'set_size': 379, 'max_abs_standardized_mean_difference_log_degree': 0.19791974704485463, 'layerwise_standardized_mean_difference_log_degree': [0.013610788967372164, 0.10959201506039733, -0.03372126473727825, 0.09225103928842339, 0.19791974704485463]}
+C2_8of10 {'set_size': 280, 'max_abs_standardized_mean_difference_log_degree': 0.20721607982665186, 'layerwise_standardized_mean_difference_log_degree': [-0.047870583878091344, -0.01343071635002267, -0.20721607982665186, -0.044632618179915574, -0.11638171602557242]}
+C23_8of10 {'set_size': 756, 'max_abs_standardized_mean_difference_log_degree': 0.10675518508486201, 'layerwise_standardized_mean_difference_log_degree': [-0.010597814710846847, 0.0644987795902034, -0.10675518508486201, 0.031316423874758026, 0.0572589803547989]}
+{
+  "trials": 10000,
+  "seed": 20261006,
+  "matching_features": "standardized log1p degree in each of five layers",
+  "sampling": "without replacement from up to 250 nearest non-set proteins",
+  "diagnostics": {
+    "C3_strict": {
+      "set_size": 277,
+      "max_abs_standardized_mean_difference_log_degree": 0.21486995054347655,
+      "layerwise_standardized_mean_difference_log_degree": [
+        0.015385367187897969,
+        0.10927683790826087,
+        -0.04311041821593319,
+        0.08255572324319346,
+        0.21486995054347655
+      ]
+    },
+    "C2_strict": {
+      "set_size": 180,
+      "max_abs_standardized_mean_difference_log_degree": 0.21210860818336494,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.053805954323262725,
+        -0.03862430031770656,
+        -0.21210860818336494,
+        -0.03969354298069945,
+        -0.14231418707955942
+      ]
+    },
+    "C23_strict": {
+      "set_size": 541,
+      "max_abs_standardized_mean_difference_log_degree": 0.11446325398026909,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.008371550342150374,
+        0.0640056765390312,
+        -0.11446325398026909,
+        0.028633170734650184,
+        0.05766414000067829
+      ]
+    },
+    "C3_8of10": {
+      "set_size": 379,
+      "max_abs_standardized_mean_difference_log_degree": 0.19791974704485463,
+      "layerwise_standardized_mean_difference_log_degree": [
+        0.013610788967372164,
+        0.10959201506039733,
+        -0.03372126473727825,
+        0.09225103928842339,
+        0.19791974704485463
+      ]
+    },
+    "C2_8of10": {
+      "set_size": 280,
+      "max_abs_standardized_mean_difference_log_degree": 0.20721607982665186,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.047870583878091344,
+        -0.01343071635002267,
+        -0.20721607982665186,
+        -0.044632618179915574,
+        -0.11638171602557242
+      ]
+    },
+    "C23_8of10": {
+      "set_size": 756,
+      "max_abs_standardized_mean_difference_log_degree": 0.10675518508486201,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.010597814710846847,
+        0.0644987795902034,
+        -0.10675518508486201,
+        0.031316423874758026,
+        0.0572589803547989
+      ]
+    }
+  }
+}

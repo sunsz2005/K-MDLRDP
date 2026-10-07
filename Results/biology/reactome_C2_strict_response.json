@@ -1,0 +1,4279 @@
+{
+  "summary": {
+    "token": "MjAyNjEwMDYwMjE2MzJfNTc1OTQ%3D",
+    "projection": false,
+    "interactors": false,
+    "type": "OVERREPRESENTATION",
+    "sampleName": "Genes",
+    "text": true,
+    "includeDisease": false
+  },
+  "expression": {
+    "columnNames": []
+  },
+  "identifiersNotFound": 140,
+  "pathwaysFound": 157,
+  "pathways": [
+    {
+      "stId": "R-SCE-8948747",
+      "dbId": 11116190,
+      "name": "Regulation of PTEN localization",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0004152823920265781,
+        "pValue": 0.07203972684747062,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6803204",
+      "dbId": 11116178,
+      "name": "TP53 Regulates Transcription of Genes Involved in Cytochrome C Release",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 3,
+        "ratio": 0.0020764119601328905,
+        "pValue": 0.006511039083944681,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-110312",
+      "dbId": 11115104,
+      "name": "Translesion synthesis by REV1",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.0008305647840531562,
+        "pValue": 0.13891648444416493,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-110313",
+      "dbId": 11115106,
+      "name": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.0008305647840531562,
+        "pValue": 0.13891648444416493,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9845576",
+      "dbId": 11116428,
+      "name": "Glycosphingolipid transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.0008305647840531562,
+        "pValue": 0.13891648444416493,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-73893",
+      "dbId": 11115108,
+      "name": "DNA Damage Bypass",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.0008305647840531562,
+        "pValue": 0.13891648444416493,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-427975",
+      "dbId": 11115646,
+      "name": "Proton/oligopeptide cotransporters",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.0016611295681063123,
+        "pValue": 0.2586273949540734,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-525793",
+      "dbId": 11115700,
+      "name": "Myogenesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 1,
+        "ratio": 0.0020764119601328905,
+        "pValue": 0.3121212723962895,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-193144",
+      "dbId": 11116112,
+      "name": "Estrogen biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 2,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.25382482647813875,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9033241",
+      "dbId": 11116314,
+      "name": "Peroxisomal protein import",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 3,
+        "ratio": 0.00872093023255814,
+        "pValue": 0.20837274877213774,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 5,
+        "ratio": 0.0032216494845360823
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5652227",
+      "dbId": 11116080,
+      "name": "Fructose biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 2,
+        "ratio": 0.006644518272425249,
+        "pValue": 0.3361668779871908,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2187335",
+      "dbId": 11115904,
+      "name": "The retinoid cycle in cones (daylight vision)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 1,
+        "ratio": 0.0033222591362126247,
+        "pValue": 0.4506404955289396,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-196108",
+      "dbId": 11115374,
+      "name": "Pregnenolone biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.004152823920265781,
+        "pValue": 0.527191460462296,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5693616",
+      "dbId": 11116094,
+      "name": "Presynaptic phase of homologous DNA pairing and strand exchange",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.004152823920265781,
+        "pValue": 0.527191460462296,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8866427",
+      "dbId": 11116230,
+      "name": "VLDLR internalisation and degradation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.004152823920265781,
+        "pValue": 0.527191460462296,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5693579",
+      "dbId": 11116096,
+      "name": "Homologous DNA Pairing and Strand Exchange",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.004152823920265781,
+        "pValue": 0.527191460462296,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-193775",
+      "dbId": 11115360,
+      "name": "Synthesis of bile acids and bile salts via 24-hydroxycholesterol",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 1,
+        "ratio": 0.004568106312292359,
+        "pValue": 0.5613892611776082,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9757110",
+      "dbId": 11116404,
+      "name": "Prednisone ADME",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 1,
+        "ratio": 0.0049833887043189366,
+        "pValue": 0.5931263137108325,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-193807",
+      "dbId": 11115362,
+      "name": "Synthesis of bile acids and bile salts via 27-hydroxycholesterol",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 1,
+        "ratio": 0.005813953488372093,
+        "pValue": 0.6499102244936299,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 4,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-193368",
+      "dbId": 11115358,
+      "name": "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 1,
+        "ratio": 0.007890365448504983,
+        "pValue": 0.7597075698792896,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 4,
+        "ratio": 0.0032216494845360823
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-196071",
+      "dbId": 11115376,
+      "name": "Metabolism of steroid hormones",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 18,
+        "found": 2,
+        "ratio": 0.007475083056478406,
+        "pValue": 0.3896684801987389,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 3,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9857492",
+      "dbId": 11116150,
+      "name": "Protein lipoylation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 18,
+        "found": 2,
+        "ratio": 0.007475083056478406,
+        "pValue": 0.3896684801987389,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 3,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-3371497",
+      "dbId": 11115976,
+      "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 1,
+        "ratio": 0.006644518272425249,
+        "pValue": 0.6988071267346916,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 3,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-176187",
+      "dbId": 11114820,
+      "name": "Activation of ATR in response to replication stress",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 37,
+        "found": 2,
+        "ratio": 0.015365448504983389,
+        "pValue": 0.7654058711309709,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 3,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8850843",
+      "dbId": 11116220,
+      "name": "Phosphate bond hydrolysis by NTPDase proteins",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 28,
+        "found": 1,
+        "ratio": 0.011627906976744186,
+        "pValue": 0.8781893095916516,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 7,
+        "ratio": 0.006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8948751",
+      "dbId": 11116222,
+      "name": "Regulation of PTEN stability and activity",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 1,
+        "ratio": 0.005813953488372093,
+        "pValue": 0.6499102244936299,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2162123",
+      "dbId": 11115518,
+      "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 1,
+        "ratio": 0.005813953488372093,
+        "pValue": 0.6499102244936299,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6807070",
+      "dbId": 11116192,
+      "name": "PTEN Regulation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 1,
+        "ratio": 0.006229235880398671,
+        "pValue": 0.675272637607977,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 4,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8964043",
+      "dbId": 11116138,
+      "name": "Plasma lipoprotein clearance",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 1,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.6225787665079393,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 4,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9609507",
+      "dbId": 11115856,
+      "name": "Protein localization",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 52,
+        "found": 4,
+        "ratio": 0.02159468438538206,
+        "pValue": 0.5461014369852574,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 6,
+        "ratio": 0.007087628865979381
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5633008",
+      "dbId": 11116176,
+      "name": "TP53 Regulates Transcription of Cell Death Genes",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 3,
+        "ratio": 0.0033222591362126247,
+        "pValue": 0.022689441545984623,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5684996",
+      "dbId": 11116338,
+      "name": "MAPK1/MAPK3 signaling",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 1,
+        "ratio": 0.0020764119601328905,
+        "pValue": 0.3121212723962895,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5673001",
+      "dbId": 11116336,
+      "name": "RAF/MAP kinase cascade",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 1,
+        "ratio": 0.0020764119601328905,
+        "pValue": 0.3121212723962895,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9648002",
+      "dbId": 11116334,
+      "name": "RAS processing",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 1,
+        "ratio": 0.0020764119601328905,
+        "pValue": 0.3121212723962895,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9959399",
+      "dbId": 11115648,
+      "name": "SLC-mediated transport of oligopeptides",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 1,
+        "ratio": 0.0024916943521594683,
+        "pValue": 0.3617751842866911,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-196819",
+      "dbId": 11115386,
+      "name": "Vitamin B1 (thiamin) metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.0029069767441860465,
+        "pValue": 0.4078633466310241,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9865881",
+      "dbId": 11116440,
+      "name": "Complex III assembly",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 1,
+        "ratio": 0.003737541528239203,
+        "pValue": 0.49034326373578996,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-73843",
+      "dbId": 11114966,
+      "name": "5-Phosphoribose 1-diphosphate biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 1,
+        "ratio": 0.004568106312292359,
+        "pValue": 0.5613892611776082,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5685942",
+      "dbId": 11116098,
+      "name": "HDR through Homologous Recombination (HRR)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 1,
+        "ratio": 0.0049833887043189366,
+        "pValue": 0.5931263137108325,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5365859",
+      "dbId": 11116030,
+      "name": "RA biosynthesis pathway",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 2,
+        "ratio": 0.01079734219269103,
+        "pValue": 0.5799167385696009,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 3,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5362517",
+      "dbId": 11116032,
+      "name": "Signaling by Retinoic Acid",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 2,
+        "ratio": 0.01079734219269103,
+        "pValue": 0.5799167385696009,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 3,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8964038",
+      "dbId": 11116136,
+      "name": "LDL clearance",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 1,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.6225787665079393,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 3,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5652084",
+      "dbId": 11114848,
+      "name": "Fructose metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 27,
+        "found": 2,
+        "ratio": 0.011212624584717609,
+        "pValue": 0.6004570613721636,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1268020",
+      "dbId": 11115854,
+      "name": "Mitochondrial protein import",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 1,
+        "ratio": 0.005813953488372093,
+        "pValue": 0.6499102244936299,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-174824",
+      "dbId": 11115512,
+      "name": "Plasma lipoprotein assembly, remodeling, and clearance",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 4,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8873719",
+      "dbId": 11116240,
+      "name": "RAB geranylgeranylation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8956319",
+      "dbId": 11114992,
+      "name": "Nucleotide catabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 50,
+        "found": 2,
+        "ratio": 0.020764119601328904,
+        "pValue": 0.8897254397008263,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 8,
+        "ratio": 0.01095360824742268
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1362409",
+      "dbId": 11115792,
+      "name": "Mitochondrial iron-sulfur cluster biogenesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 1,
+        "ratio": 0.009136212624584718,
+        "pValue": 0.8083485035138135,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 2,
+        "ratio": 0.0032216494845360823
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8964572",
+      "dbId": 11116232,
+      "name": "Lipid particle organization",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 1,
+        "ratio": 0.0033222591362126247,
+        "pValue": 0.4506404955289396,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5693538",
+      "dbId": 11115056,
+      "name": "Homology Directed Repair",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 1,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.6225787665079393,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5693567",
+      "dbId": 11115054,
+      "name": "HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 1,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.6225787665079393,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5661270",
+      "dbId": 11116084,
+      "name": "Formation of xylulose-5-phosphate",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-389599",
+      "dbId": 11115570,
+      "name": "Alpha-oxidation of phytanate",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 1,
+        "ratio": 0.007890365448504983,
+        "pValue": 0.7597075698792896,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-69481",
+      "dbId": 11114822,
+      "name": "G2/M Checkpoints",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 40,
+        "found": 2,
+        "ratio": 0.016611295681063124,
+        "pValue": 0.8018572198470244,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 3,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-69613",
+      "dbId": 11114814,
+      "name": "p53-Independent G1/S DNA Damage Checkpoint",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-69601",
+      "dbId": 11114812,
+      "name": "Ubiquitin-Mediated Degradation of Phosphorylated Cdc25A",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-69615",
+      "dbId": 11114816,
+      "name": "G1/S DNA Damage Checkpoints",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-202424",
+      "dbId": 11115434,
+      "name": "Downstream TCR signaling",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 1,
+        "ratio": 0.004568106312292359,
+        "pValue": 0.5613892611776082,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1855204",
+      "dbId": 11115852,
+      "name": "Synthesis of IP3 and IP4 in the cytosol",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 1,
+        "ratio": 0.006229235880398671,
+        "pValue": 0.675272637607977,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-199418",
+      "dbId": 11115438,
+      "name": "Negative regulation of the PI3K/AKT network",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 1,
+        "ratio": 0.006644518272425249,
+        "pValue": 0.6988071267346916,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5628897",
+      "dbId": 11114852,
+      "name": "TP53 Regulates Metabolic Genes",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 1,
+        "ratio": 0.006644518272425249,
+        "pValue": 0.6988071267346916,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8856825",
+      "dbId": 11116234,
+      "name": "Cargo recognition for clathrin-mediated endocytosis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9854311",
+      "dbId": 11116434,
+      "name": "Maturation of TCA enzymes and regulation of TCA cycle",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.0070598006644518275,
+        "pValue": 0.7206447514091029,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9709957",
+      "dbId": 11115908,
+      "name": "Sensory Perception",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 1,
+        "ratio": 0.007890365448504983,
+        "pValue": 0.7597075698792896,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2187338",
+      "dbId": 11115906,
+      "name": "Visual phototransduction",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 1,
+        "ratio": 0.007890365448504983,
+        "pValue": 0.7597075698792896,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-69620",
+      "dbId": 11114818,
+      "name": "Cell Cycle Checkpoints",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 51,
+        "found": 2,
+        "ratio": 0.02117940199335548,
+        "pValue": 0.8961775438067454,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 4,
+        "ratio": 0.01095360824742268
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-74217",
+      "dbId": 11114988,
+      "name": "Purine salvage",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 29,
+        "found": 1,
+        "ratio": 0.012043189368770765,
+        "pValue": 0.8870639221007278,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 1,
+        "ratio": 0.0032216494845360823
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-611105",
+      "dbId": 11114880,
+      "name": "Respiratory electron transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 44,
+        "found": 2,
+        "ratio": 0.018272425249169437,
+        "pValue": 0.8426405865943303,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 2,
+        "ratio": 0.007087628865979381
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-202403",
+      "dbId": 11115436,
+      "name": "TCR signaling",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 1,
+        "ratio": 0.005398671096345515,
+        "pValue": 0.6225787665079393,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 1,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8856828",
+      "dbId": 11116236,
+      "name": "Clathrin-mediated endocytosis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 1,
+        "ratio": 0.009966777408637873,
+        "pValue": 0.8351995751974681,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 1,
+        "ratio": 0.003865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-71336",
+      "dbId": 11114862,
+      "name": "Pentose phosphate pathway",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 2,
+        "ratio": 0.014534883720930232,
+        "pValue": 0.7380022136969953,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 2,
+        "ratio": 0.008376288659793814
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9755088",
+      "dbId": 11116400,
+      "name": "Ribavirin ADME",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 1,
+        "ratio": 0.006644518272425249,
+        "pValue": 0.6988071267346916,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-156590",
+      "dbId": 11115314,
+      "name": "Glutathione conjugation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 27,
+        "found": 1,
+        "ratio": 0.011212624584717609,
+        "pValue": 0.8686214974626751,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8876198",
+      "dbId": 11116242,
+      "name": "RAB GEFs exchange GTP for GDP on RABs",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 28,
+        "found": 1,
+        "ratio": 0.011627906976744186,
+        "pValue": 0.8781893095916516,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-74259",
+      "dbId": 11114990,
+      "name": "Purine catabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 29,
+        "found": 1,
+        "ratio": 0.012043189368770765,
+        "pValue": 0.8870639221007278,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1660499",
+      "dbId": 11115440,
+      "name": "Synthesis of PIPs at the plasma membrane",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 23,
+        "found": 1,
+        "ratio": 0.009551495016611296,
+        "pValue": 0.8222776111097706,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 2,
+        "ratio": 0.010309278350515464
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-70221",
+      "dbId": 11114914,
+      "name": "Glycogen breakdown (glycogenolysis)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 1,
+        "ratio": 0.009966777408637873,
+        "pValue": 0.8351995751974681,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 1,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5683057",
+      "dbId": 11115576,
+      "name": "MAPK family signaling cascades",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 1,
+        "ratio": 0.007890365448504983,
+        "pValue": 0.7597075698792896,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 1,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5693532",
+      "dbId": 11115020,
+      "name": "DNA Double-Strand Break Repair",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 1,
+        "ratio": 0.00872093023255814,
+        "pValue": 0.7933342274886978,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 1,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1266738",
+      "dbId": 11115600,
+      "name": "Developmental Biology",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 1,
+        "ratio": 0.01079734219269103,
+        "pValue": 0.8583066654308413,
+        "fdr": 0.8961775438067454,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 1,
+        "ratio": 0.007731958762886598
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9837999",
+      "dbId": 11116422,
+      "name": "Mitochondrial protein degradation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 52,
+        "found": 2,
+        "ratio": 0.02159468438538206,
+        "pValue": 0.9022788178284107,
+        "fdr": 0.9022788178284107,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 4,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-202131",
+      "dbId": 11115454,
+      "name": "Metabolism of nitric oxide: NOS3 activation and regulation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 31,
+        "found": 1,
+        "ratio": 0.01287375415282392,
+        "pValue": 0.9029298176125966,
+        "fdr": 0.9029298176125966,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 1,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-203615",
+      "dbId": 11115452,
+      "name": "eNOS activation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 31,
+        "found": 1,
+        "ratio": 0.01287375415282392,
+        "pValue": 0.9029298176125966,
+        "fdr": 0.9029298176125966,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 1,
+        "ratio": 0.005798969072164949
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-3700989",
+      "dbId": 11114854,
+      "name": "Transcriptional Regulation by TP53",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 90,
+        "found": 4,
+        "ratio": 0.03737541528239203,
+        "pValue": 0.9071399270219502,
+        "fdr": 0.9071399270219502,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 3,
+        "ratio": 0.013530927835051547
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-212436",
+      "dbId": 11114856,
+      "name": "Generic Transcription Pathway",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 91,
+        "found": 4,
+        "ratio": 0.0377906976744186,
+        "pValue": 0.9115418970362457,
+        "fdr": 0.9115418970362457,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 3,
+        "ratio": 0.014175257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6811434",
+      "dbId": 11116200,
+      "name": "COPI-dependent Golgi-to-ER retrograde traffic",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 33,
+        "found": 1,
+        "ratio": 0.013704318936877076,
+        "pValue": 0.9165774141552528,
+        "fdr": 0.9165774141552528,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1257604",
+      "dbId": 11115398,
+      "name": "PIP3 activates AKT signaling",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 34,
+        "found": 1,
+        "ratio": 0.014119601328903655,
+        "pValue": 0.922667550632172,
+        "fdr": 0.922667550632172,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 5,
+        "ratio": 0.012242268041237113
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-71403",
+      "dbId": 11114900,
+      "name": "Citric acid cycle (TCA cycle)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 57,
+        "found": 2,
+        "ratio": 0.02367109634551495,
+        "pValue": 0.9280876843652176,
+        "fdr": 0.9280876843652176,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 2,
+        "ratio": 0.00902061855670103
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2142789",
+      "dbId": 11115884,
+      "name": "Ubiquinol biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 1,
+        "ratio": 0.014534883720930232,
+        "pValue": 0.9283153756604413,
+        "fdr": 0.9283153756604413,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 6,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9007101",
+      "dbId": 11116228,
+      "name": "Rab regulation of trafficking",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 1,
+        "ratio": 0.014534883720930232,
+        "pValue": 0.9283153756604413,
+        "fdr": 0.9283153756604413,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9969896",
+      "dbId": 11115340,
+      "name": "Lanosterol biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 36,
+        "found": 1,
+        "ratio": 0.014950166112956811,
+        "pValue": 0.9335528468015022,
+        "fdr": 0.9335528468015022,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 2,
+        "ratio": 0.009664948453608248
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6807878",
+      "dbId": 11116194,
+      "name": "COPI-mediated anterograde transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 37,
+        "found": 1,
+        "ratio": 0.015365448504983389,
+        "pValue": 0.9384096246762894,
+        "fdr": 0.9384096246762894,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 1,
+        "ratio": 0.004510309278350515
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8982491",
+      "dbId": 11114844,
+      "name": "Glycogen metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 38,
+        "found": 1,
+        "ratio": 0.015780730897009966,
+        "pValue": 0.9429132371915451,
+        "fdr": 0.9429132371915451,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 1,
+        "ratio": 0.01675257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1483255",
+      "dbId": 11115442,
+      "name": "PI Metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 40,
+        "found": 1,
+        "ratio": 0.016611295681063124,
+        "pValue": 0.9509613186243526,
+        "fdr": 0.9509613186243526,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 2,
+        "ratio": 0.026417525773195876
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-192105",
+      "dbId": 11115354,
+      "name": "Synthesis of bile acids and bile salts",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.0170265780730897,
+        "pValue": 0.9545514992022603,
+        "fdr": 0.9545514992022603,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 10,
+        "ratio": 0.00902061855670103
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8856688",
+      "dbId": 11116202,
+      "name": "Golgi-to-ER retrograde transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.0170265780730897,
+        "pValue": 0.9545514992022603,
+        "fdr": 0.9545514992022603,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 2,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9006925",
+      "dbId": 11115142,
+      "name": "Intracellular signaling by second messengers",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.0170265780730897,
+        "pValue": 0.9545514992022603,
+        "fdr": 0.9545514992022603,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 5,
+        "ratio": 0.014175257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8956321",
+      "dbId": 11114970,
+      "name": "Nucleotide salvage",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.0170265780730897,
+        "pValue": 0.9545514992022603,
+        "fdr": 0.9545514992022603,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 1,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2142753",
+      "dbId": 11115126,
+      "name": "Arachidonate metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 42,
+        "found": 1,
+        "ratio": 0.01744186046511628,
+        "pValue": 0.957880191584573,
+        "fdr": 0.957880191584573,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 2,
+        "ratio": 0.005154639175257732
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1483249",
+      "dbId": 11115846,
+      "name": "Inositol phosphate metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 45,
+        "found": 1,
+        "ratio": 0.018687707641196014,
+        "pValue": 0.9664800757603578,
+        "fdr": 0.9664800757603578,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 1,
+        "ratio": 0.01675257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-156580",
+      "dbId": 11114838,
+      "name": "Phase II - Conjugation of compounds",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 46,
+        "found": 1,
+        "ratio": 0.01910299003322259,
+        "pValue": 0.9689391079312902,
+        "fdr": 0.9689391079312902,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 1,
+        "ratio": 0.007087628865979381
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-194068",
+      "dbId": 11115356,
+      "name": "Bile acid and bile salt metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 50,
+        "found": 1,
+        "ratio": 0.020764119601328904,
+        "pValue": 0.9771062323309183,
+        "fdr": 0.9771062323309183,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 10,
+        "ratio": 0.009664948453608248
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-73857",
+      "dbId": 11114858,
+      "name": "RNA Polymerase II Transcription",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 119,
+        "found": 4,
+        "ratio": 0.04941860465116279,
+        "pValue": 0.9794549082718851,
+        "fdr": 0.9794549082718851,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 54,
+        "found": 3,
+        "ratio": 0.03479381443298969
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9748784",
+      "dbId": 11115882,
+      "name": "Drug ADME",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 77,
+        "found": 2,
+        "ratio": 0.03197674418604651,
+        "pValue": 0.9799933779650093,
+        "fdr": 0.9799933779650093,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 2,
+        "ratio": 0.015463917525773196
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-390918",
+      "dbId": 11115572,
+      "name": "Peroxisomal lipid metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 54,
+        "found": 1,
+        "ratio": 0.022425249169435217,
+        "pValue": 0.9831346380573566,
+        "fdr": 0.9831346380573566,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 1,
+        "ratio": 0.007731958762886598
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8978934",
+      "dbId": 11115568,
+      "name": "Metabolism of cofactors",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 56,
+        "found": 1,
+        "ratio": 0.023255813953488372,
+        "pValue": 0.9855272764245435,
+        "fdr": 0.9855272764245435,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 6,
+        "ratio": 0.008376288659793814
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1632852",
+      "dbId": 11116086,
+      "name": "Macroautophagy",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 56,
+        "found": 1,
+        "ratio": 0.023255813953488372,
+        "pValue": 0.9855272764245435,
+        "fdr": 0.9855272764245435,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 34,
+        "found": 1,
+        "ratio": 0.02190721649484536
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9612973",
+      "dbId": 11116088,
+      "name": "Autophagy",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 56,
+        "found": 1,
+        "ratio": 0.023255813953488372,
+        "pValue": 0.9855272764245435,
+        "fdr": 0.9855272764245435,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 34,
+        "found": 1,
+        "ratio": 0.02190721649484536
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9954709",
+      "dbId": 11116450,
+      "name": "Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 58,
+        "found": 1,
+        "ratio": 0.02408637873754153,
+        "pValue": 0.987582094702434,
+        "fdr": 0.987582094702434,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9006931",
+      "dbId": 11115460,
+      "name": "Signaling by Nuclear Receptors",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 88,
+        "found": 2,
+        "ratio": 0.036544850498338874,
+        "pValue": 0.9903772705776461,
+        "fdr": 0.9903772705776461,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 3,
+        "ratio": 0.01095360824742268
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8957322",
+      "dbId": 11115344,
+      "name": "Metabolism of steroids",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 113,
+        "found": 3,
+        "ratio": 0.046926910299003324,
+        "pValue": 0.9914455508516123,
+        "fdr": 0.9914455508516123,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 46,
+        "found": 15,
+        "ratio": 0.029639175257731958
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-983168",
+      "dbId": 11115756,
+      "name": "Antigen processing: Ubiquitination & Proteasome degradation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 64,
+        "found": 1,
+        "ratio": 0.026578073089700997,
+        "pValue": 0.992162050574695,
+        "fdr": 0.992162050574695,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 1,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6811442",
+      "dbId": 11116204,
+      "name": "Intra-Golgi and retrograde Golgi-to-ER traffic",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 64,
+        "found": 1,
+        "ratio": 0.026578073089700997,
+        "pValue": 0.992162050574695,
+        "fdr": 0.992162050574695,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 2,
+        "ratio": 0.014175257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-191273",
+      "dbId": 11115342,
+      "name": "Cholesterol biosynthesis",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 64,
+        "found": 1,
+        "ratio": 0.026578073089700997,
+        "pValue": 0.992162050574695,
+        "fdr": 0.992162050574695,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 27,
+        "found": 2,
+        "ratio": 0.017396907216494846
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-73894",
+      "dbId": 11115022,
+      "name": "DNA Repair",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 93,
+        "found": 2,
+        "ratio": 0.038621262458471764,
+        "pValue": 0.9931376912179732,
+        "fdr": 0.9931376912179732,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 38,
+        "found": 2,
+        "ratio": 0.024484536082474227
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-948021",
+      "dbId": 11115480,
+      "name": "Transport to the Golgi and subsequent modification",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 66,
+        "found": 1,
+        "ratio": 0.027408637873754152,
+        "pValue": 0.9932783875733611,
+        "fdr": 0.9932783875733611,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.01095360824742268
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-199977",
+      "dbId": 11115478,
+      "name": "ER to Golgi Anterograde Transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 66,
+        "found": 1,
+        "ratio": 0.027408637873754152,
+        "pValue": 0.9932783875733611,
+        "fdr": 0.9932783875733611,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 17,
+        "found": 1,
+        "ratio": 0.01095360824742268
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1428517",
+      "dbId": 11114868,
+      "name": "Aerobic respiration and respiratory electron transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 124,
+        "found": 3,
+        "ratio": 0.05149501661129568,
+        "pValue": 0.9957098379452921,
+        "fdr": 0.9957098379452921,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 38,
+        "found": 4,
+        "ratio": 0.024484536082474227
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-71387",
+      "dbId": 11114830,
+      "name": "Metabolism of carbohydrates and carbohydrate derivatives",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 149,
+        "found": 4,
+        "ratio": 0.061877076411960136,
+        "pValue": 0.9963715453593565,
+        "fdr": 0.9963715453593565,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 76,
+        "found": 6,
+        "ratio": 0.04896907216494845
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-211859",
+      "dbId": 11114840,
+      "name": "Biological oxidations",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 75,
+        "found": 1,
+        "ratio": 0.031146179401993355,
+        "pValue": 0.9966388637526219,
+        "fdr": 0.9966388637526219,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 1,
+        "ratio": 0.014175257731958763
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-74160",
+      "dbId": 11114860,
+      "name": "Gene expression (Transcription)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 153,
+        "found": 4,
+        "ratio": 0.06353820598006645,
+        "pValue": 0.9971507921426506,
+        "fdr": 0.9971507921426506,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 64,
+        "found": 3,
+        "ratio": 0.041237113402061855
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-15869",
+      "dbId": 11114926,
+      "name": "Metabolism of nucleotides",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 132,
+        "found": 3,
+        "ratio": 0.054817275747508304,
+        "pValue": 0.9974300716773482,
+        "fdr": 0.9974300716773482,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 61,
+        "found": 9,
+        "ratio": 0.039304123711340205
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-5653656",
+      "dbId": 11115338,
+      "name": "Vesicle-mediated transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 154,
+        "found": 3,
+        "ratio": 0.06395348837209303,
+        "pValue": 0.9993967727022532,
+        "fdr": 0.9993967727022532,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 62,
+        "found": 5,
+        "ratio": 0.03994845360824742
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-199991",
+      "dbId": 11115336,
+      "name": "Membrane Trafficking",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 154,
+        "found": 3,
+        "ratio": 0.06395348837209303,
+        "pValue": 0.9993967727022532,
+        "fdr": 0.9993967727022532,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 62,
+        "found": 5,
+        "ratio": 0.03994845360824742
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-72689",
+      "dbId": 11114960,
+      "name": "Formation of a pool of free 40S subunits",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 99,
+        "found": 1,
+        "ratio": 0.04111295681063123,
+        "pValue": 0.9994774341081951,
+        "fdr": 0.9994774341081951,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-983169",
+      "dbId": 11115484,
+      "name": "Class I MHC mediated antigen processing & presentation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 100,
+        "found": 1,
+        "ratio": 0.04152823920265781,
+        "pValue": 0.999516631948994,
+        "fdr": 0.999516631948994,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 1,
+        "ratio": 0.007087628865979381
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-425407",
+      "dbId": 11115028,
+      "name": "SLC-mediated transmembrane transport",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 100,
+        "found": 1,
+        "ratio": 0.04152823920265781,
+        "pValue": 0.999516631948994,
+        "fdr": 0.999516631948994,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 54,
+        "found": 1,
+        "ratio": 0.03479381443298969
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-72706",
+      "dbId": 11114958,
+      "name": "GTP hydrolysis and joining of the 60S ribosomal subunit",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 102,
+        "found": 1,
+        "ratio": 0.04235880398671096,
+        "pValue": 0.9995864693851655,
+        "fdr": 0.9995864693851655,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1799339",
+      "dbId": 11115842,
+      "name": "SRP-dependent cotranslational protein targeting to membrane",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 104,
+        "found": 1,
+        "ratio": 0.04318936877076412,
+        "pValue": 0.9996462645463681,
+        "fdr": 0.9996462645463681,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9954714",
+      "dbId": 11116454,
+      "name": "PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 106,
+        "found": 1,
+        "ratio": 0.04401993355481727,
+        "pValue": 0.9996974545628865,
+        "fdr": 0.9996974545628865,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 3,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8978868",
+      "dbId": 11115038,
+      "name": "Fatty acid metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 139,
+        "found": 2,
+        "ratio": 0.057724252491694356,
+        "pValue": 0.9997294824040321,
+        "fdr": 0.9997294824040321,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 3,
+        "ratio": 0.026417525773195876
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-9948299",
+      "dbId": 11116452,
+      "name": "Ribosome-associated quality control",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 109,
+        "found": 1,
+        "ratio": 0.04526578073089701,
+        "pValue": 0.9997607521944303,
+        "fdr": 0.9997607521944303,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 5,
+        "ratio": 0.0032216494845360823
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-975956",
+      "dbId": 11115744,
+      "name": "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 109,
+        "found": 1,
+        "ratio": 0.04526578073089701,
+        "pValue": 0.9997607521944303,
+        "fdr": 0.9997607521944303,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 0.0006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1280218",
+      "dbId": 11115406,
+      "name": "Adaptive Immune System",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 144,
+        "found": 2,
+        "ratio": 0.059800664451827246,
+        "pValue": 0.9998117584912074,
+        "fdr": 0.9998117584912074,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 2,
+        "ratio": 0.022551546391752577
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-196849",
+      "dbId": 11115382,
+      "name": "Metabolism of water-soluble vitamins and cofactors",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 115,
+        "found": 1,
+        "ratio": 0.04775747508305648,
+        "pValue": 0.9998505269191791,
+        "fdr": 0.9998505269191791,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 65,
+        "found": 1,
+        "ratio": 0.04188144329896907
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1640170",
+      "dbId": 11114786,
+      "name": "Cell Cycle",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 151,
+        "found": 2,
+        "ratio": 0.06270764119601328,
+        "pValue": 0.999887052725033,
+        "fdr": 0.999887052725033,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 68,
+        "found": 4,
+        "ratio": 0.04381443298969072
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-156827",
+      "dbId": 11115222,
+      "name": "L13a-mediated translational silencing of Ceruloplasmin expression",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 119,
+        "found": 1,
+        "ratio": 0.04941860465116279,
+        "pValue": 0.9998908369111194,
+        "fdr": 0.9998908369111194,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.001288659793814433
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-927802",
+      "dbId": 11115746,
+      "name": "Nonsense-Mediated Decay (NMD)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 121,
+        "found": 1,
+        "ratio": 0.05024916943521595,
+        "pValue": 0.9999067298309798,
+        "fdr": 0.9999067298309798,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 3,
+        "ratio": 0.002577319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-975957",
+      "dbId": 11115748,
+      "name": "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 121,
+        "found": 1,
+        "ratio": 0.05024916943521595,
+        "pValue": 0.9999067298309798,
+        "fdr": 0.9999067298309798,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.0019329896907216496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-2262752",
+      "dbId": 11114920,
+      "name": "Cellular responses to stress",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 122,
+        "found": 1,
+        "ratio": 0.050664451827242524,
+        "pValue": 0.9999137907582627,
+        "fdr": 0.9999137907582627,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 60,
+        "found": 3,
+        "ratio": 0.03865979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-196854",
+      "dbId": 11115384,
+      "name": "Metabolism of vitamins and cofactors",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 156,
+        "found": 2,
+        "ratio": 0.06478405315614617,
+        "pValue": 0.9999217516284703,
+        "fdr": 0.9999217516284703,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 78,
+        "found": 7,
+        "ratio": 0.05025773195876289
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-72613",
+      "dbId": 11114950,
+      "name": "Eukaryotic Translation Initiation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 130,
+        "found": 1,
+        "ratio": 0.05398671096345515,
+        "pValue": 0.9999541327514996,
+        "fdr": 0.9999541327514996,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 4,
+        "ratio": 0.010309278350515464
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-72737",
+      "dbId": 11114948,
+      "name": "Cap-dependent Translation Initiation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 130,
+        "found": 1,
+        "ratio": 0.05398671096345515,
+        "pValue": 0.9999541327514996,
+        "fdr": 0.9999541327514996,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 3,
+        "ratio": 0.00902061855670103
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-382551",
+      "dbId": 11115030,
+      "name": "Transport of small molecules",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 192,
+        "found": 3,
+        "ratio": 0.07973421926910298,
+        "pValue": 0.9999560666346597,
+        "fdr": 0.9999560666346597,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 109,
+        "found": 6,
+        "ratio": 0.0702319587628866
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8953897",
+      "dbId": 11114922,
+      "name": "Cellular responses to stimuli",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 138,
+        "found": 1,
+        "ratio": 0.057308970099667775,
+        "pValue": 0.9999756506468042,
+        "fdr": 0.9999756506468042,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 69,
+        "found": 3,
+        "ratio": 0.04445876288659794
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1483257",
+      "dbId": 11115046,
+      "name": "Phospholipid metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 141,
+        "found": 1,
+        "ratio": 0.05855481727574751,
+        "pValue": 0.9999808085955835,
+        "fdr": 0.9999808085955835,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 115,
+        "found": 2,
+        "ratio": 0.0740979381443299
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-446203",
+      "dbId": 11115352,
+      "name": "Asparagine N-linked glycosylation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 142,
+        "found": 1,
+        "ratio": 0.058970099667774084,
+        "pValue": 0.9999822737802262,
+        "fdr": 0.9999822737802262,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.026417525773195876
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-72766",
+      "dbId": 11114938,
+      "name": "Translation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 157,
+        "found": 1,
+        "ratio": 0.06519933554817275,
+        "pValue": 0.9999946368217094,
+        "fdr": 0.9999946368217094,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 28,
+        "found": 10,
+        "ratio": 0.01804123711340206
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-6798695",
+      "dbId": 11116168,
+      "name": "Neutrophil degranulation",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 164,
+        "found": 1,
+        "ratio": 0.0681063122923588,
+        "pValue": 0.9999969384130383,
+        "fdr": 0.9999969384130383,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 1,
+        "ratio": 0.006443298969072165
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-162582",
+      "dbId": 11115000,
+      "name": "Signal Transduction",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 271,
+        "found": 4,
+        "ratio": 0.11254152823920266,
+        "pValue": 0.9999989639299868,
+        "fdr": 0.9999989639299868,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 150,
+        "found": 9,
+        "ratio": 0.09664948453608248
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-597592",
+      "dbId": 11115236,
+      "name": "Post-translational protein modification",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 317,
+        "found": 4,
+        "ratio": 0.13164451827242524,
+        "pValue": 0.9999999655525197,
+        "fdr": 0.9999999655525197,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 113,
+        "found": 6,
+        "ratio": 0.07280927835051547
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-168249",
+      "dbId": 11115264,
+      "name": "Innate Immune System",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 233,
+        "found": 1,
+        "ratio": 0.09676079734219269,
+        "pValue": 0.99999998892101,
+        "fdr": 0.99999998892101,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 41,
+        "found": 1,
+        "ratio": 0.026417525773195876
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-168256",
+      "dbId": 11115266,
+      "name": "Immune System",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 338,
+        "found": 3,
+        "ratio": 0.1403654485049834,
+        "pValue": 0.9999999993094837,
+        "fdr": 0.9999999993094837,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 77,
+        "found": 3,
+        "ratio": 0.04961340206185567
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-556833",
+      "dbId": 11114984,
+      "name": "Metabolism of lipids",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 398,
+        "found": 5,
+        "ratio": 0.16528239202657807,
+        "pValue": 0.9999999994490617,
+        "fdr": 0.9999999994490617,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 237,
+        "found": 21,
+        "ratio": 0.15270618556701032
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-8953854",
+      "dbId": 11114944,
+      "name": "Metabolism of RNA",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 276,
+        "found": 1,
+        "ratio": 0.11461794019933555,
+        "pValue": 0.9999999996955408,
+        "fdr": 0.9999999996955408,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 29,
+        "found": 3,
+        "ratio": 0.018685567010309278
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-392499",
+      "dbId": 11114940,
+      "name": "Metabolism of proteins",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 533,
+        "found": 7,
+        "ratio": 0.2213455149501661,
+        "pValue": 0.9999999999992811,
+        "fdr": 0.9999999999992811,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 158,
+        "found": 20,
+        "ratio": 0.1018041237113402
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SCE-1430728",
+      "dbId": 11114832,
+      "name": "Metabolism",
+      "species": {
+        "dbId": 68322,
+        "taxId": "4932",
+        "name": "Saccharomyces cerevisiae"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1074,
+        "found": 18,
+        "ratio": 0.44601328903654486,
+        "pValue": 1.0,
+        "fdr": 1.0,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 656,
+        "found": 52,
+        "ratio": 0.422680412371134
+      },
+      "inDisease": false
+    }
+  ],
+  "resourceSummary": [
+    {
+      "resource": "TOTAL",
+      "pathways": 157,
+      "filtered": 157
+    },
+    {
+      "resource": "UNIPROT",
+      "pathways": 157,
+      "filtered": 157
+    }
+  ],
+  "speciesSummary": [
+    {
+      "dbId": 68322,
+      "taxId": "4932",
+      "name": "Saccharomyces cerevisiae",
+      "pathways": 157,
+      "filtered": 157
+    }
+  ],
+  "warnings": []
+}

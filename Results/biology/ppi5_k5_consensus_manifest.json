@@ -1,0 +1,14 @@
+{
+  "background": "five-layer common PPI vertex set",
+  "background_size": 4223,
+  "solution_count": 10,
+  "sets": {
+    "C3_strict": 277,
+    "C2_strict": 180,
+    "C23_strict": 541,
+    "C3_8of10": 379,
+    "C2_8of10": 280,
+    "C23_8of10": 756
+  },
+  "mapping_coverage": 4223
+}

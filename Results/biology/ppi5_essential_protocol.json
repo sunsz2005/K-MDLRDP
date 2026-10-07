@@ -1,0 +1,21 @@
+{
+  "source_url": "https://downloads.yeastgenome.org/curation/literature/phenotype_data.tab",
+  "download_date": "2026-10-06",
+  "source_sha256": "5d7258882d35cf0220b2335fc7c82fe45ad799d77fc80e49547e57f5aa7c5b05",
+  "primary_definition": "systematic mutation set; null; S288C; inviable",
+  "background_size": 4223,
+  "trials": 10000,
+  "seed": 20261007,
+  "degree_matching": "20 nearest controls with replacement; exponential distance weights",
+  "distance_temperature": 0.01,
+  "essential_counts_full_file": {
+    "primary_systematic_S288C_null_inviable": 1108,
+    "sensitivity_systematic_all_strains_null_inviable": 1155,
+    "sensitivity_all_null_inviable": 1245
+  },
+  "essential_counts_background": {
+    "primary_systematic_S288C_null_inviable": 935,
+    "sensitivity_systematic_all_strains_null_inviable": 974,
+    "sensitivity_all_null_inviable": 1047
+  }
+}

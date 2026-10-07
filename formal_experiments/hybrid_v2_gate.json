@@ -1,0 +1,54 @@
+{
+  "name": "support-aware GA-ILP V2 gate experiment",
+  "date": "2026-10-01",
+  "build": "Release",
+  "scope": {
+    "instance": "RandomC/n30-c3-M10-p30",
+    "k": [5, 10],
+    "initializations": ["random", "greedy"],
+    "seeds": [13579, 24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+    "paired_runs": 40
+  },
+  "parameters": {
+    "total_time_limit_seconds": 30,
+    "ga_time_limit_seconds": 9,
+    "ga_generations": 100,
+    "subproblem_time_limit_seconds": 3,
+    "neighborhood_fractions": [0.20, 0.30, 0.40, 0.60, 1.00],
+    "failure_window": 1,
+    "max_subproblems": 5,
+    "strict_improvement_cut": true,
+    "reinjection_after_improvement": true
+  },
+  "results": {
+    "all": {
+      "win_tie_loss": [13, 27, 0],
+      "baseline_optimal_hits": 23,
+      "hybrid_optimal_hits": 35,
+      "baseline_mean_gap_percent": 3.887,
+      "hybrid_mean_gap_percent": 0.826,
+      "baseline_mean_seconds": 5.027,
+      "hybrid_mean_seconds": 10.164,
+      "runtime_ratio": 2.02
+    },
+    "random_initialization": {
+      "win_tie_loss": [7, 13, 0],
+      "baseline_optimal_hits": 9,
+      "hybrid_optimal_hits": 15,
+      "baseline_mean_gap_percent": 4.678,
+      "hybrid_mean_gap_percent": 1.653
+    },
+    "greedy_initialization": {
+      "win_tie_loss": [6, 14, 0],
+      "baseline_optimal_hits": 14,
+      "hybrid_optimal_hits": 20,
+      "baseline_mean_gap_percent": 3.095,
+      "hybrid_mean_gap_percent": 0.0
+    }
+  },
+  "raw_results": [
+    "../Results/formal/hybrid_v22_gate_r.csv",
+    "../Results/formal/hybrid_v22_gate_g.csv"
+  ],
+  "decision": "quality gate passed; runtime target requires further large-instance validation"
+}

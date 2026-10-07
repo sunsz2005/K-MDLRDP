@@ -1,0 +1,234 @@
+{
+  "source_versions": {
+    "STRING": "v9.1 (exact size and edge fingerprint)",
+    "WI-PHI": "author repository file wiphi.txt (exact size and edge fingerprint)",
+    "BioGRID": "author repository file BioGRID.txt (exact size and edge fingerprint)",
+    "iRefIndex": "release not stated; restricted named edges recovered from published numeric graph",
+    "MINT": "release not stated; restricted named edges recovered from published numeric graph"
+  },
+  "mapping_sizes": {
+    "2": 6044,
+    "3": 5708,
+    "4": 5237,
+    "5": 4223
+  },
+  "mapping_status": {
+    "2Layers": "partial: 6044/6052; 8 identifiers unresolved",
+    "3Layers": "complete and exact",
+    "4Layers": "complete and exact",
+    "5Layers": "complete and exact"
+  },
+  "2layer_unresolved_groups": [
+    {
+      "internal_ids": [
+        5719,
+        5762,
+        5820
+      ],
+      "candidate_names": [
+        "YBL012C",
+        "YDR355C",
+        "YMR086C-A"
+      ]
+    },
+    {
+      "internal_ids": [
+        5729,
+        5793
+      ],
+      "candidate_names": [
+        "YER172C-A",
+        "YPL135C-A"
+      ]
+    },
+    {
+      "internal_ids": [
+        5778
+      ],
+      "candidate_names": [
+        "YBR201C-A",
+        "YCR075W-A",
+        "YGL041W-A",
+        "YGR161W-C",
+        "YGR174W-A",
+        "YHR050W-A",
+        "YLR157W-E",
+        "YLR342W-A",
+        "YML054C-A",
+        "YPR145C-A"
+      ]
+    },
+    {
+      "internal_ids": [
+        5831
+      ],
+      "candidate_names": [
+        "YDR003W-A",
+        "YOR020W-A"
+      ]
+    },
+    {
+      "internal_ids": [
+        5956
+      ],
+      "candidate_names": [
+        "YBR126W-B",
+        "YKL023C-A"
+      ]
+    }
+  ],
+  "extension_rounds": {
+    "3Layers": [
+      471
+    ],
+    "2Layers": [
+      336
+    ]
+  },
+  "nesting": [
+    {
+      "larger_vertex_set": "2Layers",
+      "prefix_vertex_set": "3Layers",
+      "layer": "STRING",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "2Layers",
+      "prefix_vertex_set": "3Layers",
+      "layer": "iRefIndex",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "3Layers",
+      "prefix_vertex_set": "4Layers",
+      "layer": "STRING",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "3Layers",
+      "prefix_vertex_set": "4Layers",
+      "layer": "iRefIndex",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "3Layers",
+      "prefix_vertex_set": "4Layers",
+      "layer": "wiphi",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "4Layers",
+      "prefix_vertex_set": "5Layers",
+      "layer": "STRING",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "4Layers",
+      "prefix_vertex_set": "5Layers",
+      "layer": "iRefIndex",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "4Layers",
+      "prefix_vertex_set": "5Layers",
+      "layer": "wiphi",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    },
+    {
+      "larger_vertex_set": "4Layers",
+      "prefix_vertex_set": "5Layers",
+      "layer": "BioGRID",
+      "edge_subset_exact": true,
+      "prefix_induced_exact": true
+    }
+  ],
+  "known_source_edge_validation": {
+    "3": {
+      "exact": true,
+      "layers": [
+        {
+          "layer": "STRING",
+          "expected_edges": 718942,
+          "observed_edges": 718942,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        },
+        {
+          "layer": "wiphi",
+          "expected_edges": 47869,
+          "observed_edges": 47869,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        }
+      ]
+    },
+    "4": {
+      "exact": true,
+      "layers": [
+        {
+          "layer": "STRING",
+          "expected_edges": 690049,
+          "observed_edges": 690049,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        },
+        {
+          "layer": "wiphi",
+          "expected_edges": 45867,
+          "observed_edges": 45867,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        },
+        {
+          "layer": "BioGRID",
+          "expected_edges": 56899,
+          "observed_edges": 56899,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        }
+      ]
+    },
+    "5": {
+      "exact": true,
+      "layers": [
+        {
+          "layer": "STRING",
+          "expected_edges": 524070,
+          "observed_edges": 524070,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        },
+        {
+          "layer": "wiphi",
+          "expected_edges": 38935,
+          "observed_edges": 38935,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        },
+        {
+          "layer": "BioGRID",
+          "expected_edges": 51440,
+          "observed_edges": 51440,
+          "missing_edges": 0,
+          "extra_edges": 0,
+          "exact": true
+        }
+      ]
+    }
+  }
+}

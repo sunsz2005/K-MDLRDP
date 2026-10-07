@@ -1,0 +1,31 @@
+{
+  "definition": "label 2 in both ordinary-Roman ILP formulations",
+  "set_size": 473,
+  "solutions": [
+    {
+      "formulation": "direct",
+      "objective": 1636.0,
+      "status": 1,
+      "success": false,
+      "mip_gap": 0.009779951100244499,
+      "mip_dual_bound": 1620.0
+    },
+    {
+      "formulation": "cumulative",
+      "objective": 1636.0,
+      "status": 1,
+      "success": false,
+      "mip_gap": 0.009168704156479218,
+      "mip_dual_bound": 1621.0
+    }
+  ]
+}
+R2_strict {'size': 473, 'max_abs_smd_log_degree': 0.04718843528062418, 'layerwise_smd_log_degree': [0.007732173951937198, 0.003657809056596, -0.008366598597371802, -0.005020890215841906, 0.04718843528062418]}
+C3_strict {'size': 277, 'max_abs_smd_log_degree': 0.07397513582528661, 'layerwise_smd_log_degree': [0.01328522197659232, 0.009797008447856097, -0.01119037937632217, 0.022885393144647683, 0.07397513582528661]}
+C2_strict {'size': 180, 'max_abs_smd_log_degree': 0.10033415298891378, 'layerwise_smd_log_degree': [-0.015971973767800456, -0.0077444376514018325, -0.10033415298891378, -0.021320159138678848, -0.047560002732215695]}
+R2_8of10 {'size': 473, 'max_abs_smd_log_degree': 0.047186029409742314, 'layerwise_smd_log_degree': [0.007731708453574054, 0.003638520532077295, -0.008398759977568747, -0.004973122447758279, 0.047186029409742314]}
+C3_8of10 {'size': 379, 'max_abs_smd_log_degree': 0.07156592305860042, 'layerwise_smd_log_degree': [0.004044087260624558, 0.005902135719916682, -0.002546448303336248, 0.03464777122023622, 0.07156592305860042]}
+C2_8of10 {'size': 280, 'max_abs_smd_log_degree': 0.07605525239531247, 'layerwise_smd_log_degree': [-0.005433137187371474, -0.0009061831975735829, -0.07605525239531247, -0.0110529635124379, -0.04507415871720472]}
+R2_strict {'set_size': 473, 'significant_terms': 1275, 'max_abs_smd_log_degree': 0.047220479105117376}
+C3_strict {'set_size': 277, 'significant_terms': 1118, 'max_abs_smd_log_degree': 0.07395033580166775}
+C2_strict {'set_size': 180, 'significant_terms': 639, 'max_abs_smd_log_degree': 0.10026173482357574}

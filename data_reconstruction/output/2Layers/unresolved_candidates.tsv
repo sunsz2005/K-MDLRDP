@@ -1,0 +1,6 @@
+internal_ids	candidate_systematic_names	reason
+5719,5762,5820	YBL012C,YDR355C,YMR086C-A	indistinguishable_in_STRING; historical_named_iRefIndex_required
+5729,5793	YER172C-A,YPL135C-A	indistinguishable_in_STRING; historical_named_iRefIndex_required
+5778	YBR201C-A,YCR075W-A,YGL041W-A,YGR161W-C,YGR174W-A,YHR050W-A,YLR157W-E,YLR342W-A,YML054C-A,YPR145C-A	indistinguishable_in_STRING; historical_named_iRefIndex_required
+5831	YDR003W-A,YOR020W-A	indistinguishable_in_STRING; historical_named_iRefIndex_required
+5956	YBR126W-B,YKL023C-A	indistinguishable_in_STRING; historical_named_iRefIndex_required

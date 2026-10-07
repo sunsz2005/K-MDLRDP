@@ -1,0 +1,35 @@
+{
+  "experiment": "Certified ordinary-Roman VNS robustness comparison",
+  "purpose": "Replace the certificate-free reference-binary runs by independently replayable label vectors for ten-seed protein-set stability analysis.",
+  "instance": "Instances/PPI/PPI-5Layers",
+  "layers": 5,
+  "k": 5,
+  "method": "VNS-G-FI in ordinary-Roman mode",
+  "seeds": [20261006, 20261007, 20261008, 20261009, 20261010, 20261011, 20261012, 20261013, 20261014, 20261015],
+  "time_limit_seconds": 3600,
+  "max_parallel": 2,
+  "kappa_min": 2,
+  "kappa_max": 12,
+  "tie_probability": 0.4,
+  "local_search": "first improvement",
+  "maximum_iterations": 10000,
+  "maximum_nonimproving_iterations": 5000,
+  "initialization": "best feasible greedy label vector from the corresponding archived reference run",
+  "certificate_checks": [
+    "4223 labels",
+    "labels in {0,1,2}",
+    "sum(labels)=objective",
+    "every label-0 vertex has a label-2 neighbor in all five layers"
+  ],
+  "output": "Results/formal/ppi_5layer_k5_roman_vns_certified_10seeds.csv",
+  "completion": {
+    "status": "complete",
+    "validated_runs": 10,
+    "validation_errors": 0,
+    "objective_mean": 1682.6,
+    "objective_sample_std": 2.3664,
+    "objective_range": [1678, 1685],
+    "R2_strict_size": 394,
+    "R2_8of10_size": 459
+  }
+}

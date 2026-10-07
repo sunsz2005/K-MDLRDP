@@ -1,0 +1,17 @@
+{
+  "experiment": "Five-layer PPI k=M VNS ten-run stability study",
+  "design_note": "The ten-run ledger combines the reused gate seed 13579 with nine new seeds.",
+  "purpose": "Obtain all-layer-valid solutions suitable for downstream cross-source biological interpretation and quantify objective and label-set stability.",
+  "instance": "PPI-5Layers",
+  "layers": 5,
+  "k": 5,
+  "method": "vns-g-fi",
+  "time_limit_seconds": 3600,
+  "all_seeds": [13579, 24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "reused_gate_seed": 13579,
+  "new_seeds": [24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "new_run_count": 9,
+  "combined_run_count": 10,
+  "gate_source": "Results/formal/ppi_gate_vns_g_fi.csv",
+  "new_output": "Results/formal/ppi_5layer_k5_vns_extra.csv"
+}

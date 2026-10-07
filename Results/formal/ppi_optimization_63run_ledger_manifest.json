@@ -1,0 +1,54 @@
+{
+  "description": "Deduplicated PPI optimization ledger used by the manuscript",
+  "merge_key": [
+    "instance",
+    "k",
+    "method",
+    "seed"
+  ],
+  "source_files": {
+    "Results/formal/ppi_gate_merged.csv": 36,
+    "Results/formal/ppi_formal_ga_g_hybrid_k1_10seeds.csv": 30
+  },
+  "source_rows_total": 66,
+  "duplicate_rows_removed": 3,
+  "duplicate_keys": [
+    [
+      "PPI-3Layers",
+      1,
+      "ga-g-hybrid",
+      13579
+    ],
+    [
+      "PPI-4Layers",
+      1,
+      "ga-g-hybrid",
+      13579
+    ],
+    [
+      "PPI-5Layers",
+      1,
+      "ga-g-hybrid",
+      13579
+    ]
+  ],
+  "output_file": "Results/formal/ppi_optimization_63run_ledger.csv",
+  "output_rows": 63,
+  "normalization": "Absolute instance paths were replaced by Instances/PPI/<instance>.",
+  "structural_validation": {
+    "checks": [
+      "status=ok",
+      "feasible=true",
+      "label count=n",
+      "labels in {0,1,2,3}",
+      "sum(labels)=objective",
+      "valid_layers>=k"
+    ],
+    "errors": []
+  },
+  "source_feasibility_replay": {
+    "gate_summary": "Results/formal/ppi_gate_summary.json",
+    "formal_k1_summary": "Results/formal/ppi_formal_ga_g_hybrid_k1_summary.json",
+    "reported_errors": 0
+  }
+}

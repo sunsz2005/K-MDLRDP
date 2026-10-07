@@ -1,0 +1,24 @@
+{
+  "name": "k-MLDRDP real PPI one-seed gate",
+  "frozen_on": "2026-10-04",
+  "instances": ["PPI-3Layers", "PPI-4Layers", "PPI-5Layers"],
+  "layer_order": {
+    "PPI-3Layers": ["STRING", "iRefIndex", "WI-PHI"],
+    "PPI-4Layers": ["STRING", "iRefIndex", "WI-PHI", "BioGRID"],
+    "PPI-5Layers": ["STRING", "iRefIndex", "WI-PHI", "BioGRID", "MINT"]
+  },
+  "mapping_requirement": "complete and exact according to data_reconstruction/output/reconstruction_report.json",
+  "excluded": {
+    "PPI-2Layers": "8 protein identifiers remain unresolved; excluded from formal biological interpretation"
+  },
+  "k": "all values from 1 through M",
+  "methods": ["greedy", "vns-g-fi", "ga-g-hybrid"],
+  "seeds": [13579],
+  "time_limit_seconds": 3600,
+  "expected_rows": {
+    "greedy": 12,
+    "vns-g-fi": 12,
+    "ga-g-hybrid": 12,
+    "total": 36
+  }
+}

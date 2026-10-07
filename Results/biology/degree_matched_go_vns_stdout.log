@@ -1,0 +1,3 @@
+R2_strict {'set_size': 394, 'significant_terms': 1300, 'max_abs_smd_log_degree': 0.06565999011811366}
+C3_strict {'set_size': 277, 'significant_terms': 1118, 'max_abs_smd_log_degree': 0.07395033580166775}
+C2_strict {'set_size': 180, 'significant_terms': 639, 'max_abs_smd_log_degree': 0.10026173482357574}

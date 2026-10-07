@@ -1,0 +1,44 @@
+{
+  "api": "https://reactome.org/AnalysisService/identifiers/",
+  "reactome_version": "97",
+  "date": "2026-10-06",
+  "background_note": "Reactome AnalysisService uses its own mapped-entity universe; unlike the g:Profiler GO/KEGG analysis, this result does not use the custom 4,223-protein PPI background.",
+  "sets": {
+    "C3_strict": {
+      "query_size": 277,
+      "identifiers_not_found": 158,
+      "pathways_found": 397,
+      "token": "MjAyNjEwMDYwMjE2MzBfNTc1OTM%3D"
+    },
+    "C2_strict": {
+      "query_size": 180,
+      "identifiers_not_found": 140,
+      "pathways_found": 157,
+      "token": "MjAyNjEwMDYwMjE2MzJfNTc1OTQ%3D"
+    },
+    "C23_strict": {
+      "query_size": 541,
+      "identifiers_not_found": 364,
+      "pathways_found": 485,
+      "token": "MjAyNjEwMDYwMjE2MzRfNTc1OTU%3D"
+    },
+    "C3_8of10": {
+      "query_size": 379,
+      "identifiers_not_found": 224,
+      "pathways_found": 444,
+      "token": "MjAyNjEwMDYwMjE2MzZfNTc1OTY%3D"
+    },
+    "C2_8of10": {
+      "query_size": 280,
+      "identifiers_not_found": 221,
+      "pathways_found": 242,
+      "token": "MjAyNjEwMDYwMjE2MzhfNTc1OTc%3D"
+    },
+    "C23_8of10": {
+      "query_size": 756,
+      "identifiers_not_found": 510,
+      "pathways_found": 556,
+      "token": "MjAyNjEwMDYwMjE2NDBfNTc1OTg%3D"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "seed":  20261010,
+    "started":  "2026-10-07T08:33:10.4036536+08:00",
+    "finished":  "2026-10-07T09:04:42.1779777+08:00",
+    "elapsed_seconds":  1891.7743240999998,
+    "exit_code":  null,
+    "stdout":  "Results\\formal\\ordinary_roman_vns_certified\\seed_20261010\\stdout.log",
+    "stderr":  "Results\\formal\\ordinary_roman_vns_certified\\seed_20261010\\stderr.log"
+}

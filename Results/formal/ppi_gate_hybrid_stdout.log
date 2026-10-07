@@ -1,0 +1,12 @@
+RUN PPI-3Layers k=1 ga-g-hybrid seed=13579
+RUN PPI-3Layers k=2 ga-g-hybrid seed=13579
+RUN PPI-3Layers k=3 ga-g-hybrid seed=13579
+RUN PPI-4Layers k=1 ga-g-hybrid seed=13579
+RUN PPI-4Layers k=2 ga-g-hybrid seed=13579
+RUN PPI-4Layers k=3 ga-g-hybrid seed=13579
+RUN PPI-4Layers k=4 ga-g-hybrid seed=13579
+RUN PPI-5Layers k=1 ga-g-hybrid seed=13579
+RUN PPI-5Layers k=2 ga-g-hybrid seed=13579
+RUN PPI-5Layers k=3 ga-g-hybrid seed=13579
+RUN PPI-5Layers k=4 ga-g-hybrid seed=13579
+RUN PPI-5Layers k=5 ga-g-hybrid seed=13579

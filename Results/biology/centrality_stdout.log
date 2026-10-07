@@ -1,0 +1,24 @@
+{
+  "background": "five-layer common PPI vertex set",
+  "background_size": 4223,
+  "solution_count": 10,
+  "sets": {
+    "C3_strict": 277,
+    "C2_strict": 180,
+    "C23_strict": 541,
+    "C3_8of10": 379,
+    "C2_8of10": 280,
+    "C23_8of10": 756
+  },
+  "mapping_coverage": 4223
+}
+RUN exact centrality layer 1
+OK n=4223 m=524070 output=Results\biology\ppi5_layer_1_centrality.csv
+RUN exact centrality layer 2
+OK n=4223 m=94336 output=Results\biology\ppi5_layer_2_centrality.csv
+RUN exact centrality layer 3
+OK n=4223 m=38935 output=Results\biology\ppi5_layer_3_centrality.csv
+RUN exact centrality layer 4
+OK n=4223 m=51440 output=Results\biology\ppi5_layer_4_centrality.csv
+RUN exact centrality layer 5
+OK n=4223 m=17642 output=Results\biology\ppi5_layer_5_centrality.csv

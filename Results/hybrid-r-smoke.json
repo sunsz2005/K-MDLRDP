@@ -1,0 +1,43 @@
+{
+  "algorithm": "adaptive-GA-R-ILP",
+  "instance": "Instances\\sample-2layer",
+  "n": 5,
+  "layers": 2,
+  "k": 1,
+  "seed": 13579,
+  "ga_objective": 5,
+  "objective": 5,
+  "improvement": 0,
+  "valid_layers": [
+    2
+  ],
+  "feasible": true,
+  "elapsed_seconds": 0.10900000001129229,
+  "subproblems": [
+    {
+      "iteration": 1,
+      "free_vertices": 1,
+      "before": 5,
+      "after": 5,
+      "accepted": false,
+      "optimal_subproblem": true,
+      "relative_gap": 0.0
+    },
+    {
+      "iteration": 2,
+      "free_vertices": 1,
+      "before": 5,
+      "after": 5,
+      "accepted": false,
+      "optimal_subproblem": true,
+      "relative_gap": 0.0
+    }
+  ],
+  "labels": [
+    0,
+    0,
+    3,
+    2,
+    0
+  ]
+}

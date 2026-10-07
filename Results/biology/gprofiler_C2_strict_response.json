@@ -1,0 +1,1923 @@
+{
+  "result": [
+    {
+      "description": "\"A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.\" [GOC:dos, GOC:mah, ISBN:0815316194]",
+      "effective_domain_size": 4222,
+      "goshv": 35368,
+      "intersection_size": 90,
+      "intersections": [
+        [
+          "ISM",
+          "IEA"
+        ],
+        [
+          "IDA"
+        ],
+        [
+          "NAS"
+        ],
+        [
+          "IDA",
+          "IMP",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "HDA"
+        ],
+        [],
+        [
+          "IDA",
+          "IPI",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "NAS"
+        ],
+        [],
+        [],
+        [
+          "HDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "TAS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "HDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IDA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "HDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA"
+        ],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [
+          "TAS"
+        ],
+        [
+          "HDA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IBA"
+        ],
+        [
+          "IDA",
+          "IPI",
+          "NAS",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IDA",
+          "IPI",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "NAS"
+        ],
+        [
+          "IDA"
+        ],
+        [],
+        [
+          "IDA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IBA",
+          "TAS",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "ISM",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IDA"
+        ],
+        [],
+        [
+          "IMP",
+          "TAS",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "HDA",
+          "IEA"
+        ],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IMP",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "HDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IDA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "TAS"
+        ],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [
+          "IDA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IPI",
+          "HDA",
+          "NAS",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ]
+      ],
+      "name": "membrane",
+      "native": "GO:0016020",
+      "p_value": 0.010850219385428588,
+      "parents": [
+        "GO:0110165"
+      ],
+      "precision": 0.5027932960893855,
+      "query": "query_1",
+      "query_size": 179,
+      "recall": 0.05917159763313609,
+      "significant": true,
+      "source": "GO:CC",
+      "term_size": 1521,
+      "source_order": 699,
+      "group_id": 2
+    },
+    {
+      "description": "\"Removes a phosphatidic acid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3.\" [PMID:23042293]",
+      "effective_domain_size": 4222,
+      "goshv": 9952,
+      "intersection_size": 3,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IMP",
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        []
+      ],
+      "name": "phosphatidic acid transfer activity",
+      "native": "GO:1990050",
+      "p_value": 0.03292037607148078,
+      "parents": [
+        "GO:0120014"
+      ],
+      "precision": 0.01675977653631285,
+      "query": "query_1",
+      "query_size": 179,
+      "recall": 1.0,
+      "significant": true,
+      "source": "GO:MF",
+      "term_size": 3,
+      "source_order": 9952,
+      "group_id": 1
+    },
+    {
+      "description": "\"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope.\" [GOC:mah, NIF_Subcellular:sao1045389829]",
+      "effective_domain_size": 4222,
+      "goshv": 35855,
+      "intersection_size": 28,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "HDA"
+        ],
+        [],
+        [
+          "IDA",
+          "IPI",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "NAS"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "TAS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "HDA"
+        ],
+        [],
+        [
+          "IDA"
+        ],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "HDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "NAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IBA",
+          "TAS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IDA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "HDA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IEA"
+        ],
+        [],
+        [],
+        []
+      ],
+      "name": "mitochondrial membrane",
+      "native": "GO:0031966",
+      "p_value": 0.0497672897839369,
+      "parents": [
+        "GO:0005740",
+        "GO:0031090"
+      ],
+      "precision": 0.1564245810055866,
+      "query": "query_1",
+      "query_size": 179,
+      "recall": 0.08211143695014662,
+      "significant": true,
+      "source": "GO:CC",
+      "term_size": 341,
+      "source_order": 1186,
+      "group_id": 3
+    }
+  ],
+  "meta": {
+    "query_metadata": {
+      "queries": {
+        "query_1": [
+          "YDL018C",
+          "YJL165C",
+          "YMR029C",
+          "YGR125W",
+          "YPR002W",
+          "YPR047W",
+          "YGR132C",
+          "YGL140C",
+          "YBR043C",
+          "YLR426W",
+          "YER109C",
+          "YJR096W",
+          "YCR046C",
+          "YDR073W",
+          "YNL295W",
+          "YBR264C",
+          "YJL166W",
+          "YPR042C",
+          "YBR062C",
+          "YOR336W",
+          "YGR172C",
+          "YGR161C-D",
+          "YLR146C",
+          "YPR121W",
+          "YDL224C",
+          "YDL054C",
+          "YGL183C",
+          "YLR020C",
+          "YAL067C",
+          "YGL170C",
+          "YGR174C",
+          "YMR148W",
+          "YOR389W",
+          "YLR168C",
+          "YIL130W",
+          "YGR276C",
+          "YGL037C",
+          "YPR066W",
+          "YBR255W",
+          "YLR091W",
+          "YJR159W",
+          "YDR056C",
+          "YGR131W",
+          "YLR134W",
+          "YGR065C",
+          "YNL268W",
+          "YOL125W",
+          "YHR190W",
+          "YDR466W",
+          "YJL209W",
+          "YLR193C",
+          "YGR062C",
+          "YKR061W",
+          "YHR201C",
+          "YKL027W",
+          "YFL055W",
+          "YBR259W",
+          "YOR071C",
+          "YFR041C",
+          "YDR051C",
+          "YNL128W",
+          "YNL008C",
+          "YJL059W",
+          "YIL052C",
+          "YAL059W",
+          "YBR070C",
+          "YJR149W",
+          "YKR043C",
+          "YBR050C",
+          "YEL042W",
+          "YPR158W-B",
+          "YBL068W",
+          "YLL007C",
+          "YJR108W",
+          "YGR043C",
+          "YER067W",
+          "YER140W",
+          "YLR253W",
+          "YBR282W",
+          "YER048C",
+          "YCR045C",
+          "YDR213W",
+          "YKL070W",
+          "YJL046W",
+          "YLR327C",
+          "YKL079W",
+          "YGL110C",
+          "YJL144W",
+          "YCR068W",
+          "YMR098C",
+          "YNR019W",
+          "YGR244C",
+          "YBL111C",
+          "YJL133W",
+          "YLR065C",
+          "YOR180C",
+          "YLR265C",
+          "YDR059C",
+          "YGL057C",
+          "YPL189W",
+          "YNL077W",
+          "YNL225C",
+          "YMR187C",
+          "YBR210W",
+          "YLR023C",
+          "YDR476C",
+          "YOR094W",
+          "YHR033W",
+          "YER061C",
+          "YER121W",
+          "YMR070W",
+          "YLR376C",
+          "YHR209W",
+          "YIR019C",
+          "YBR182C",
+          "YOR295W",
+          "YGL063W",
+          "YGR294W",
+          "YNL241C",
+          "YPL270W",
+          "YPL167C",
+          "YDR275W",
+          "YGL262W",
+          "YGR021W",
+          "YFR046C",
+          "YGR227W",
+          "YDR034W-B",
+          "YOR202W",
+          "YER104W",
+          "YOR093C",
+          "YPR071W",
+          "YOR238W",
+          "YGR255C",
+          "YGR286C",
+          "YOR137C",
+          "YCR024C",
+          "YGR049W",
+          "YKR020W",
+          "YDR058C",
+          "YGR126W",
+          "YDL182W",
+          "YHR048W",
+          "YLL061W",
+          "YGR096W",
+          "YLR118C",
+          "YJR154W",
+          "YLR390W",
+          "YMR195W",
+          "YEL057C",
+          "YDL238C",
+          "YKR093W",
+          "YFR038W",
+          "YOR342C",
+          "YNL149C",
+          "YKL040C",
+          "YPL277C",
+          "YJR105W",
+          "YPL194W",
+          "YDR183W",
+          "YER042W",
+          "YDL120W",
+          "YML107C",
+          "YKL133C",
+          "YMR161W",
+          "YCL069W",
+          "YGL216W",
+          "YJL068C",
+          "YIL085C",
+          "YDL130W-A",
+          "YOR289W",
+          "YKL084W",
+          "YLR213C",
+          "YLL038C",
+          "YCL036W",
+          "YLR389C",
+          "YBR191W",
+          "YDR185C",
+          "YLR360W",
+          "YOR380W",
+          "YBR132C"
+        ]
+      },
+      "organism": "scerevisiae",
+      "all_results": false,
+      "ordered": false,
+      "no_iea": false,
+      "sources": [
+        "GO:MF",
+        "GO:CC",
+        "GO:BP",
+        "KEGG"
+      ],
+      "combined": false,
+      "aresolve": {},
+      "numeric_ns": "ENTREZGENE_ACC",
+      "domain_scope": "custom",
+      "measure_underrepresentation": false,
+      "significance_threshold_method": "fdr",
+      "user_threshold": 0.05,
+      "no_evidences": false,
+      "highlight": null
+    },
+    "result_metadata": {
+      "GO:MF": {
+        "domain_size": 6584,
+        "number_of_terms": 10123,
+        "threshold": null
+      },
+      "GO:CC": {
+        "domain_size": 6580,
+        "number_of_terms": 4069,
+        "threshold": null
+      },
+      "GO:BP": {
+        "domain_size": 6570,
+        "number_of_terms": 24546,
+        "threshold": null
+      },
+      "KEGG": {
+        "domain_size": 2248,
+        "number_of_terms": 586,
+        "threshold": null
+      }
+    },
+    "genes_metadata": {
+      "failed": [
+        "YER109C"
+      ],
+      "ambiguous": {},
+      "duplicates": [],
+      "query": {
+        "query_1": {
+          "mapping": {
+            "YDL018C": [
+              "YDL018C"
+            ],
+            "YJL165C": [
+              "YJL165C"
+            ],
+            "YMR029C": [
+              "YMR029C"
+            ],
+            "YGR125W": [
+              "YGR125W"
+            ],
+            "YPR002W": [
+              "YPR002W"
+            ],
+            "YPR047W": [
+              "YPR047W"
+            ],
+            "YGR132C": [
+              "YGR132C"
+            ],
+            "YGL140C": [
+              "YGL140C"
+            ],
+            "YBR043C": [
+              "YBR043C"
+            ],
+            "YLR426W": [
+              "YLR426W"
+            ],
+            "YJR096W": [
+              "YJR096W"
+            ],
+            "YCR046C": [
+              "YCR046C"
+            ],
+            "YDR073W": [
+              "YDR073W"
+            ],
+            "YNL295W": [
+              "YNL295W"
+            ],
+            "YBR264C": [
+              "YBR264C"
+            ],
+            "YJL166W": [
+              "YJL166W"
+            ],
+            "YPR042C": [
+              "YPR042C"
+            ],
+            "YBR062C": [
+              "YBR062C"
+            ],
+            "YOR336W": [
+              "YOR336W"
+            ],
+            "YGR172C": [
+              "YGR172C"
+            ],
+            "YGR161C-D": [
+              "YGR161C-D"
+            ],
+            "YLR146C": [
+              "YLR146C"
+            ],
+            "YPR121W": [
+              "YPR121W"
+            ],
+            "YDL224C": [
+              "YDL224C"
+            ],
+            "YDL054C": [
+              "YDL054C"
+            ],
+            "YGL183C": [
+              "YGL183C"
+            ],
+            "YLR020C": [
+              "YLR020C"
+            ],
+            "YAL067C": [
+              "YAL067C"
+            ],
+            "YGL170C": [
+              "YGL170C"
+            ],
+            "YGR174C": [
+              "YGR174C"
+            ],
+            "YMR148W": [
+              "YMR148W"
+            ],
+            "YOR389W": [
+              "YOR389W"
+            ],
+            "YLR168C": [
+              "YLR168C"
+            ],
+            "YIL130W": [
+              "YIL130W"
+            ],
+            "YGR276C": [
+              "YGR276C"
+            ],
+            "YGL037C": [
+              "YGL037C"
+            ],
+            "YPR066W": [
+              "YPR066W"
+            ],
+            "YBR255W": [
+              "YBR255W"
+            ],
+            "YLR091W": [
+              "YLR091W"
+            ],
+            "YJR159W": [
+              "YJR159W"
+            ],
+            "YDR056C": [
+              "YDR056C"
+            ],
+            "YGR131W": [
+              "YGR131W"
+            ],
+            "YLR134W": [
+              "YLR134W"
+            ],
+            "YGR065C": [
+              "YGR065C"
+            ],
+            "YNL268W": [
+              "YNL268W"
+            ],
+            "YOL125W": [
+              "YOL125W"
+            ],
+            "YHR190W": [
+              "YHR190W"
+            ],
+            "YDR466W": [
+              "YDR466W"
+            ],
+            "YJL209W": [
+              "YJL209W"
+            ],
+            "YLR193C": [
+              "YLR193C"
+            ],
+            "YGR062C": [
+              "YGR062C"
+            ],
+            "YKR061W": [
+              "YKR061W"
+            ],
+            "YHR201C": [
+              "YHR201C"
+            ],
+            "YKL027W": [
+              "YKL027W"
+            ],
+            "YFL055W": [
+              "YFL055W"
+            ],
+            "YBR259W": [
+              "YBR259W"
+            ],
+            "YOR071C": [
+              "YOR071C"
+            ],
+            "YFR041C": [
+              "YFR041C"
+            ],
+            "YDR051C": [
+              "YDR051C"
+            ],
+            "YNL128W": [
+              "YNL128W"
+            ],
+            "YNL008C": [
+              "YNL008C"
+            ],
+            "YJL059W": [
+              "YJL059W"
+            ],
+            "YIL052C": [
+              "YIL052C"
+            ],
+            "YAL059W": [
+              "YAL059W"
+            ],
+            "YBR070C": [
+              "YBR070C"
+            ],
+            "YJR149W": [
+              "YJR149W"
+            ],
+            "YKR043C": [
+              "YKR043C"
+            ],
+            "YBR050C": [
+              "YBR050C"
+            ],
+            "YEL042W": [
+              "YEL042W"
+            ],
+            "YPR158W-B": [
+              "YPR158W-B"
+            ],
+            "YBL068W": [
+              "YBL068W"
+            ],
+            "YLL007C": [
+              "YLL007C"
+            ],
+            "YJR108W": [
+              "YJR108W"
+            ],
+            "YGR043C": [
+              "YGR043C"
+            ],
+            "YER067W": [
+              "YER067W"
+            ],
+            "YER140W": [
+              "YER140W"
+            ],
+            "YLR253W": [
+              "YLR253W"
+            ],
+            "YBR282W": [
+              "YBR282W"
+            ],
+            "YER048C": [
+              "YER048C"
+            ],
+            "YCR045C": [
+              "YCR045C"
+            ],
+            "YDR213W": [
+              "YDR213W"
+            ],
+            "YKL070W": [
+              "YKL070W"
+            ],
+            "YJL046W": [
+              "YJL046W"
+            ],
+            "YLR327C": [
+              "YLR327C"
+            ],
+            "YKL079W": [
+              "YKL079W"
+            ],
+            "YGL110C": [
+              "YGL110C"
+            ],
+            "YJL144W": [
+              "YJL144W"
+            ],
+            "YCR068W": [
+              "YCR068W"
+            ],
+            "YMR098C": [
+              "YMR098C"
+            ],
+            "YNR019W": [
+              "YNR019W"
+            ],
+            "YGR244C": [
+              "YGR244C"
+            ],
+            "YBL111C": [
+              "YBL111C"
+            ],
+            "YJL133W": [
+              "YJL133W"
+            ],
+            "YLR065C": [
+              "YLR065C"
+            ],
+            "YOR180C": [
+              "YOR180C"
+            ],
+            "YLR265C": [
+              "YLR265C"
+            ],
+            "YDR059C": [
+              "YDR059C"
+            ],
+            "YGL057C": [
+              "YGL057C"
+            ],
+            "YPL189W": [
+              "YPL189W"
+            ],
+            "YNL077W": [
+              "YNL077W"
+            ],
+            "YNL225C": [
+              "YNL225C"
+            ],
+            "YMR187C": [
+              "YMR187C"
+            ],
+            "YBR210W": [
+              "YBR210W"
+            ],
+            "YLR023C": [
+              "YLR023C"
+            ],
+            "YDR476C": [
+              "YDR476C"
+            ],
+            "YOR094W": [
+              "YOR094W"
+            ],
+            "YHR033W": [
+              "YHR033W"
+            ],
+            "YER061C": [
+              "YER061C"
+            ],
+            "YER121W": [
+              "YER121W"
+            ],
+            "YMR070W": [
+              "YMR070W"
+            ],
+            "YLR376C": [
+              "YLR376C"
+            ],
+            "YHR209W": [
+              "YHR209W"
+            ],
+            "YIR019C": [
+              "YIR019C"
+            ],
+            "YBR182C": [
+              "YBR182C"
+            ],
+            "YOR295W": [
+              "YOR295W"
+            ],
+            "YGL063W": [
+              "YGL063W"
+            ],
+            "YGR294W": [
+              "YGR294W"
+            ],
+            "YNL241C": [
+              "YNL241C"
+            ],
+            "YPL270W": [
+              "YPL270W"
+            ],
+            "YPL167C": [
+              "YPL167C"
+            ],
+            "YDR275W": [
+              "YDR275W"
+            ],
+            "YGL262W": [
+              "YGL262W"
+            ],
+            "YGR021W": [
+              "YGR021W"
+            ],
+            "YFR046C": [
+              "YFR046C"
+            ],
+            "YGR227W": [
+              "YGR227W"
+            ],
+            "YDR034W-B": [
+              "YDR034W-B"
+            ],
+            "YOR202W": [
+              "YOR202W"
+            ],
+            "YER104W": [
+              "YER104W"
+            ],
+            "YOR093C": [
+              "YOR093C"
+            ],
+            "YPR071W": [
+              "YPR071W"
+            ],
+            "YOR238W": [
+              "YOR238W"
+            ],
+            "YGR255C": [
+              "YGR255C"
+            ],
+            "YGR286C": [
+              "YGR286C"
+            ],
+            "YOR137C": [
+              "YOR137C"
+            ],
+            "YCR024C": [
+              "YCR024C"
+            ],
+            "YGR049W": [
+              "YGR049W"
+            ],
+            "YKR020W": [
+              "YKR020W"
+            ],
+            "YDR058C": [
+              "YDR058C"
+            ],
+            "YGR126W": [
+              "YGR126W"
+            ],
+            "YDL182W": [
+              "YDL182W"
+            ],
+            "YHR048W": [
+              "YHR048W"
+            ],
+            "YLL061W": [
+              "YLL061W"
+            ],
+            "YGR096W": [
+              "YGR096W"
+            ],
+            "YLR118C": [
+              "YLR118C"
+            ],
+            "YJR154W": [
+              "YJR154W"
+            ],
+            "YLR390W": [
+              "YLR390W"
+            ],
+            "YMR195W": [
+              "YMR195W"
+            ],
+            "YEL057C": [
+              "YEL057C"
+            ],
+            "YDL238C": [
+              "YDL238C"
+            ],
+            "YKR093W": [
+              "YKR093W"
+            ],
+            "YFR038W": [
+              "YFR038W"
+            ],
+            "YOR342C": [
+              "YOR342C"
+            ],
+            "YNL149C": [
+              "YNL149C"
+            ],
+            "YKL040C": [
+              "YKL040C"
+            ],
+            "YPL277C": [
+              "YPL277C"
+            ],
+            "YJR105W": [
+              "YJR105W"
+            ],
+            "YPL194W": [
+              "YPL194W"
+            ],
+            "YDR183W": [
+              "YDR183W"
+            ],
+            "YER042W": [
+              "YER042W"
+            ],
+            "YDL120W": [
+              "YDL120W"
+            ],
+            "YML107C": [
+              "YML107C"
+            ],
+            "YKL133C": [
+              "YKL133C"
+            ],
+            "YMR161W": [
+              "YMR161W"
+            ],
+            "YCL069W": [
+              "YCL069W"
+            ],
+            "YGL216W": [
+              "YGL216W"
+            ],
+            "YJL068C": [
+              "YJL068C"
+            ],
+            "YIL085C": [
+              "YIL085C"
+            ],
+            "YDL130W-A": [
+              "YDL130W-A"
+            ],
+            "YOR289W": [
+              "YOR289W"
+            ],
+            "YKL084W": [
+              "YKL084W"
+            ],
+            "YLR213C": [
+              "YLR213C"
+            ],
+            "YLL038C": [
+              "YLL038C"
+            ],
+            "YCL036W": [
+              "YCL036W"
+            ],
+            "YLR389C": [
+              "YLR389C"
+            ],
+            "YBR191W": [
+              "YBR191W"
+            ],
+            "YDR185C": [
+              "YDR185C"
+            ],
+            "YLR360W": [
+              "YLR360W"
+            ],
+            "YOR380W": [
+              "YOR380W"
+            ],
+            "YBR132C": [
+              "YBR132C"
+            ]
+          },
+          "ensgs": [
+            "YDL018C",
+            "YJL165C",
+            "YMR029C",
+            "YGR125W",
+            "YPR002W",
+            "YPR047W",
+            "YGR132C",
+            "YGL140C",
+            "YBR043C",
+            "YLR426W",
+            "YJR096W",
+            "YCR046C",
+            "YDR073W",
+            "YNL295W",
+            "YBR264C",
+            "YJL166W",
+            "YPR042C",
+            "YBR062C",
+            "YOR336W",
+            "YGR172C",
+            "YGR161C-D",
+            "YLR146C",
+            "YPR121W",
+            "YDL224C",
+            "YDL054C",
+            "YGL183C",
+            "YLR020C",
+            "YAL067C",
+            "YGL170C",
+            "YGR174C",
+            "YMR148W",
+            "YOR389W",
+            "YLR168C",
+            "YIL130W",
+            "YGR276C",
+            "YGL037C",
+            "YPR066W",
+            "YBR255W",
+            "YLR091W",
+            "YJR159W",
+            "YDR056C",
+            "YGR131W",
+            "YLR134W",
+            "YGR065C",
+            "YNL268W",
+            "YOL125W",
+            "YHR190W",
+            "YDR466W",
+            "YJL209W",
+            "YLR193C",
+            "YGR062C",
+            "YKR061W",
+            "YHR201C",
+            "YKL027W",
+            "YFL055W",
+            "YBR259W",
+            "YOR071C",
+            "YFR041C",
+            "YDR051C",
+            "YNL128W",
+            "YNL008C",
+            "YJL059W",
+            "YIL052C",
+            "YAL059W",
+            "YBR070C",
+            "YJR149W",
+            "YKR043C",
+            "YBR050C",
+            "YEL042W",
+            "YPR158W-B",
+            "YBL068W",
+            "YLL007C",
+            "YJR108W",
+            "YGR043C",
+            "YER067W",
+            "YER140W",
+            "YLR253W",
+            "YBR282W",
+            "YER048C",
+            "YCR045C",
+            "YDR213W",
+            "YKL070W",
+            "YJL046W",
+            "YLR327C",
+            "YKL079W",
+            "YGL110C",
+            "YJL144W",
+            "YCR068W",
+            "YMR098C",
+            "YNR019W",
+            "YGR244C",
+            "YBL111C",
+            "YJL133W",
+            "YLR065C",
+            "YOR180C",
+            "YLR265C",
+            "YDR059C",
+            "YGL057C",
+            "YPL189W",
+            "YNL077W",
+            "YNL225C",
+            "YMR187C",
+            "YBR210W",
+            "YLR023C",
+            "YDR476C",
+            "YOR094W",
+            "YHR033W",
+            "YER061C",
+            "YER121W",
+            "YMR070W",
+            "YLR376C",
+            "YHR209W",
+            "YIR019C",
+            "YBR182C",
+            "YOR295W",
+            "YGL063W",
+            "YGR294W",
+            "YNL241C",
+            "YPL270W",
+            "YPL167C",
+            "YDR275W",
+            "YGL262W",
+            "YGR021W",
+            "YFR046C",
+            "YGR227W",
+            "YDR034W-B",
+            "YOR202W",
+            "YER104W",
+            "YOR093C",
+            "YPR071W",
+            "YOR238W",
+            "YGR255C",
+            "YGR286C",
+            "YOR137C",
+            "YCR024C",
+            "YGR049W",
+            "YKR020W",
+            "YDR058C",
+            "YGR126W",
+            "YDL182W",
+            "YHR048W",
+            "YLL061W",
+            "YGR096W",
+            "YLR118C",
+            "YJR154W",
+            "YLR390W",
+            "YMR195W",
+            "YEL057C",
+            "YDL238C",
+            "YKR093W",
+            "YFR038W",
+            "YOR342C",
+            "YNL149C",
+            "YKL040C",
+            "YPL277C",
+            "YJR105W",
+            "YPL194W",
+            "YDR183W",
+            "YER042W",
+            "YDL120W",
+            "YML107C",
+            "YKL133C",
+            "YMR161W",
+            "YCL069W",
+            "YGL216W",
+            "YJL068C",
+            "YIL085C",
+            "YDL130W-A",
+            "YOR289W",
+            "YKL084W",
+            "YLR213C",
+            "YLL038C",
+            "YCL036W",
+            "YLR389C",
+            "YBR191W",
+            "YDR185C",
+            "YLR360W",
+            "YOR380W",
+            "YBR132C"
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-10-06T01:46:56.534064+00:00",
+    "version": "e114_eg62_p19_27110d83"
+  }
+}

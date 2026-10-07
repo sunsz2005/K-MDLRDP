@@ -1,0 +1,11 @@
+bin/
+**/__pycache__/
+*.py[cod]
+*.pid
+
+# Third-party downloads are intentionally not redistributed. The repository
+# contains derived instances, reconstruction outputs, checksums, and source
+# provenance instead.
+Results/biology/source/
+data_reconstruction/downloads/
+data_reconstruction/sources/

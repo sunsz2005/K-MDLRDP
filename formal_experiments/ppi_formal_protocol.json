@@ -1,0 +1,20 @@
+{
+  "experiment": "PPI k=1 ten-run extension",
+  "design_note": "Each instance combines the reused gate seed 13579 with nine new seeds; summaries are descriptive rather than ten independent post-selection replications.",
+  "decision_basis": "The 36-run gate experiment was complete and fully validated. GA-G-Hybrid improved over Greedy by 48.70%, 28.38%, and 46.37% for k=1 on the 3-, 4-, and 5-layer PPI networks, respectively. VNS-G-FI was not competitive for these configurations.",
+  "instances": [
+    "PPI-3Layers",
+    "PPI-4Layers",
+    "PPI-5Layers"
+  ],
+  "method": "ga-g-hybrid",
+  "k_values": [1],
+  "time_limit_seconds": 3600,
+  "all_seeds": [13579, 24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "reused_gate_seed": 13579,
+  "new_seeds": [24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "new_run_count": 27,
+  "combined_run_count": 30,
+  "gate_source": "Results/formal/ppi_gate_ga_g_hybrid.csv",
+  "new_output": "Results/formal/ppi_formal_ga_g_hybrid_k1_extra.csv"
+}

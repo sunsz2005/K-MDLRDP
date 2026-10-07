@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "expected_runs": 10,
+  "validated_runs": 10,
+  "validation_errors": [],
+  "seeds": [
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015
+  ],
+  "objectives": [
+    1681,
+    1683,
+    1680,
+    1684,
+    1685,
+    1685,
+    1682,
+    1678,
+    1685,
+    1683
+  ],
+  "output": "Results/formal/ppi_5layer_k5_roman_vns_certified_10seeds.csv"
+}

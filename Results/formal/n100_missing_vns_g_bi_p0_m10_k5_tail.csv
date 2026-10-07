@@ -1,0 +1,3 @@
+instance,n,layers,k,method,seed,status,feasible,objective,valid_layers,elapsed_seconds,time_to_best_seconds,optimal,relative_gap,labels,error
+REFERENCE_INSTANCES\RandomC\n100-c10-M10-p0,100,10,5,vns-g-bi,424242,ok,True,56,5,96.623851,0.366195,,,0 3 0 0 0 0 0 0 0 2 0 0 0 3 0 3 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 3 0 0 3 0 0 0 0 0 3 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0,
+REFERENCE_INSTANCES\RandomC\n100-c10-M10-p0,100,10,5,vns-g-bi,987654,ok,True,56,5,98.50209,0.331676,,,0 3 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 0 0 3 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 3 0 0 0 3 0 0 0 0 0 3 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3,

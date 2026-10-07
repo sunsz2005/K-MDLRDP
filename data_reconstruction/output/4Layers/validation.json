@@ -1,0 +1,44 @@
+{
+  "candidate_nodes": 5296,
+  "target_nodes": 5237,
+  "initial_proposals": 1354,
+  "consistent_seed": 1298,
+  "expansion_rounds": [
+    3928,
+    11
+  ],
+  "mapped_nodes": 5237,
+  "exact_all_layers": true,
+  "layers": [
+    {
+      "layer": "STRING",
+      "expected_edges": 690049,
+      "observed_edges": 690049,
+      "missing_edges": 0,
+      "extra_edges": 0,
+      "exact": true,
+      "missing_examples": [],
+      "extra_examples": []
+    },
+    {
+      "layer": "wiphi",
+      "expected_edges": 45867,
+      "observed_edges": 45867,
+      "missing_edges": 0,
+      "extra_edges": 0,
+      "exact": true,
+      "missing_examples": [],
+      "extra_examples": []
+    },
+    {
+      "layer": "BioGRID",
+      "expected_edges": 56899,
+      "observed_edges": 56899,
+      "missing_edges": 0,
+      "extra_edges": 0,
+      "exact": true,
+      "missing_examples": [],
+      "extra_examples": []
+    }
+  ]
+}

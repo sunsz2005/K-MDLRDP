@@ -1,0 +1,24 @@
+{
+  "experiment": "Ordinary Roman five-layer PPI k=M exact-formulation comparison",
+  "purpose": "Reproduce the reference paper's two-formulation intersection definition and compare it with double-Roman labels 3 and 2.",
+  "instance": "Instances/PPI/PPI-5Layers",
+  "input_identity": "byte-identical to k-MLRDP-main/Instances/PPI/5Layers for all five layers",
+  "n": 4223,
+  "M": 5,
+  "k": 5,
+  "formulations": {
+    "direct": "binary label-2 and label-1 variables",
+    "cumulative": "binary at-least-1 and label-2 variables"
+  },
+  "solver": "SciPy milp / HiGHS 1.2.2",
+  "time_limit_seconds_per_formulation": 3600,
+  "mip_relative_gap_target": 0.00001,
+  "candidate_definition": "intersection of vertices labeled 2 by the two incumbent solutions",
+  "postprocessing": [
+    "independent five-layer feasibility replay",
+    "set overlap and Jaccard comparison",
+    "10000-draw five-layer degree-matched centrality test",
+    "10000-draw degree-matched SGD essentiality test",
+    "10000-draw degree-matched GO enrichment"
+  ]
+}

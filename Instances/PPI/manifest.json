@@ -1,0 +1,108 @@
+﻿{
+    "generated_on":  "2026-10-04",
+    "reconstruction_report":  "data_reconstruction/output/reconstruction_report.json",
+    "instances":  [
+                      {
+                          "instance":  "PPI-3Layers",
+                          "mapping_status":  "complete and exact",
+                          "layers":  [
+                                         {
+                                             "index":  1,
+                                             "source":  "STRING",
+                                             "vertices":  5708,
+                                             "edges":  718942,
+                                             "sha256":  "034AA051D5C20489B3DDE671AA18AC6B21C3133E3E37E455E0E050774439D9FC"
+                                         },
+                                         {
+                                             "index":  2,
+                                             "source":  "iRefIndex",
+                                             "vertices":  5708,
+                                             "edges":  109294,
+                                             "sha256":  "9C5C138577FF1238ABC3878424EE38CA92B9DF0A10B18BF77126D20098346D5E"
+                                         },
+                                         {
+                                             "index":  3,
+                                             "source":  "wiphi",
+                                             "vertices":  5708,
+                                             "edges":  47869,
+                                             "sha256":  "B2F25E3694CB45FF770F096B49601B319627DF97F4B62F53D312411E79A738A9"
+                                         }
+                                     ]
+                      },
+                      {
+                          "instance":  "PPI-4Layers",
+                          "mapping_status":  "complete and exact",
+                          "layers":  [
+                                         {
+                                             "index":  1,
+                                             "source":  "STRING",
+                                             "vertices":  5237,
+                                             "edges":  690049,
+                                             "sha256":  "FC13A26F729E16299A5483E94A519DA91484C7E952C0DA119330296E59477B96"
+                                         },
+                                         {
+                                             "index":  2,
+                                             "source":  "iRefIndex",
+                                             "vertices":  5237,
+                                             "edges":  107579,
+                                             "sha256":  "99318CB84F1A75D3BF2D6D9494E53BA885D424747898A56D85D88786FE57E111"
+                                         },
+                                         {
+                                             "index":  3,
+                                             "source":  "wiphi",
+                                             "vertices":  5237,
+                                             "edges":  45867,
+                                             "sha256":  "78EEBAB649BA5FB51950883174FED98FEAF3F70CF3BA6E642EB22509C47D4799"
+                                         },
+                                         {
+                                             "index":  4,
+                                             "source":  "BioGRID",
+                                             "vertices":  5237,
+                                             "edges":  56899,
+                                             "sha256":  "BB5FD90ECE5B5CD26E2499D8235E0794EC2954EB2EC9CA40E011C41FCBA1ADAC"
+                                         }
+                                     ]
+                      },
+                      {
+                          "instance":  "PPI-5Layers",
+                          "mapping_status":  "complete and exact",
+                          "layers":  [
+                                         {
+                                             "index":  1,
+                                             "source":  "STRING",
+                                             "vertices":  4223,
+                                             "edges":  524070,
+                                             "sha256":  "9D7D4DF7B7D8A543AA1068DB0F2A75FC6A7C9055DD1C7CB1602D5D08A443349B"
+                                         },
+                                         {
+                                             "index":  2,
+                                             "source":  "iRefIndex",
+                                             "vertices":  4223,
+                                             "edges":  94336,
+                                             "sha256":  "2FCBF57A7AB4A2A4207267C80EE109ACEED9A05CCE7A64D7262B5CF298B96A67"
+                                         },
+                                         {
+                                             "index":  3,
+                                             "source":  "wiphi",
+                                             "vertices":  4223,
+                                             "edges":  38935,
+                                             "sha256":  "6DE81335F726CBF708AD2F98192A6438802D1597CD8FD63B5DA92CEE73AEBE50"
+                                         },
+                                         {
+                                             "index":  4,
+                                             "source":  "BioGRID",
+                                             "vertices":  4223,
+                                             "edges":  51440,
+                                             "sha256":  "31AF9E044319FB96E038323F85E8DF9A65C9ACF09B8CA1AE59277278FB9C169A"
+                                         },
+                                         {
+                                             "index":  5,
+                                             "source":  "MINT",
+                                             "vertices":  4223,
+                                             "edges":  17642,
+                                             "sha256":  "DCC8E617EBFC5D5034765DCE9B9E1FFBC97B33CB17157B4A83672C085EE7586D"
+                                         }
+                                     ]
+                      }
+                  ]
+}

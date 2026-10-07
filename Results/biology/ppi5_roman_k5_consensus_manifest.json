@@ -1,0 +1,22 @@
+{
+  "source": "certified ordinary-Roman VNS-G-FI, ten independent seeds",
+  "input_csv": "Results\\formal\\ppi_5layer_k5_roman_vns_certified_10seeds.csv",
+  "run_count": 10,
+  "background_size": 4223,
+  "sets": {
+    "R2_strict": 394,
+    "R2_8of10": 459
+  },
+  "objectives": [
+    1681.0,
+    1683.0,
+    1680.0,
+    1684.0,
+    1685.0,
+    1685.0,
+    1682.0,
+    1678.0,
+    1685.0,
+    1683.0
+  ]
+}

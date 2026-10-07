@@ -1,0 +1,42 @@
+{
+  "description": "Sensitivity analyses for gate-seed reuse and correlation among k-configurations sharing an underlying graph",
+  "source": "Results/formal/n1000_formal_10seed.csv",
+  "gate_seed": 13579,
+  "gate_seed_excluded_configuration_analysis": {
+    "seeds_retained_per_configuration": 9,
+    "vns_g_fi_vs_ga_g_hybrid": {
+      "wins_ties_losses": [19, 0, 5],
+      "mean_relative_improvement_percent": 0.6384382083915283,
+      "wilcoxon_two_sided_p": 0.0008462667465209961,
+      "holm_adjusted_p": 0.0008462667465209961,
+      "mean_paired_runtime_ratio": 0.2482673084386672
+    }
+  },
+  "nine_underlying_graph_blocks": {
+    "construction": "Average the configuration means over all k values belonging to each of the nine distinct underlying graph instances.",
+    "friedman": {
+      "statistic": 16.222222222222214,
+      "p": 0.0003001851487690379
+    },
+    "pairwise_holm_adjusted": {
+      "vns_g_fi_vs_greedy": {
+        "wins_ties_losses": [9, 0, 0],
+        "mean_relative_improvement_percent": 1.448299397613025,
+        "wilcoxon_two_sided_p": 0.00390625,
+        "holm_adjusted_p": 0.01171875
+      },
+      "ga_g_hybrid_vs_greedy": {
+        "wins_ties_losses": [9, 0, 0],
+        "mean_relative_improvement_percent": 0.8831379492652871,
+        "wilcoxon_two_sided_p": 0.00390625,
+        "holm_adjusted_p": 0.01171875
+      },
+      "vns_g_fi_vs_ga_g_hybrid": {
+        "wins_ties_losses": [8, 0, 1],
+        "mean_relative_improvement_percent": 0.5698442315281711,
+        "wilcoxon_two_sided_p": 0.02734375,
+        "holm_adjusted_p": 0.02734375
+      }
+    }
+  }
+}

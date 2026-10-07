@@ -1,0 +1,13 @@
+instance,n,layers,k,method,seed,status,feasible,objective,valid_layers,elapsed_seconds,time_to_best_seconds,optimal,relative_gap,labels,error
+Instances\sample-2layer,5,2,1,greedy,13579,ok,True,5,1,0.002625,0.002625,,,0 0 3 2 0,
+Instances\sample-2layer,5,2,1,ga-g-fi,13579,ok,True,5,1,1.00029,0.017976,,,0 0 3 2 0,
+Instances\sample-2layer,5,2,1,vns-g-fi,13579,ok,True,5,1,1.000026,0.005706,,,0 0 3 2 0,
+Instances\sample-2layer,5,2,1,ga-hybrid,13579,ok,True,5,1,0.46799999999348074,,,,0 0 3 2 0,
+Instances\sample-2layer,5,2,1,dr-new1,13579,ok,True,5,1,0.8439999999973224,,True,0.0,0 0 3 2 0,
+Instances\sample-2layer,5,2,1,dr-new2,13579,ok,True,5,1,0.8429999999934807,,True,0.0,0 0 3 2 0,
+Instances\sample-2layer,5,2,2,greedy,13579,ok,True,8,2,0.003476,0.003476,,,2 0 3 3 0,
+Instances\sample-2layer,5,2,2,ga-g-fi,13579,ok,True,7,2,1.00013,0.017281,,,2 2 0 2 1,
+Instances\sample-2layer,5,2,2,vns-g-fi,13579,ok,True,7,2,1.000209,0.005086,,,2 2 0 2 1,
+Instances\sample-2layer,5,2,2,ga-hybrid,13579,ok,True,7,2,0.5,,,,2 2 0 2 1,
+Instances\sample-2layer,5,2,2,dr-new1,13579,ok,True,7,2,0.8129999999946449,,True,0.0,2 2 0 2 1,
+Instances\sample-2layer,5,2,2,dr-new2,13579,ok,True,7,2,0.8120000000053551,,True,0.0,2 2 0 3 0,

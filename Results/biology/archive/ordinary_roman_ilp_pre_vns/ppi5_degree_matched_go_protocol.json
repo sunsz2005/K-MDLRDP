@@ -1,0 +1,32 @@
+{
+  "sets": [
+    "R2_strict",
+    "C3_strict",
+    "C2_strict"
+  ],
+  "trials": 10000,
+  "matching": "standardized log1p degree in all five PPI layers",
+  "sampling": "20 nearest non-set proteins with replacement and exponential distance weights",
+  "go_propagation": "is_a and part_of ancestors",
+  "negative_annotations": "NOT annotations excluded",
+  "eligible_terms": 3570,
+  "minimum_background_count": 5,
+  "multiple_testing": "Benjamini-Hochberg across all eligible GO terms within each set",
+  "diagnostics": {
+    "R2_strict": {
+      "set_size": 473,
+      "significant_terms": 1275,
+      "max_abs_smd_log_degree": 0.047220479105117376
+    },
+    "C3_strict": {
+      "set_size": 277,
+      "significant_terms": 1118,
+      "max_abs_smd_log_degree": 0.07395033580166775
+    },
+    "C2_strict": {
+      "set_size": 180,
+      "significant_terms": 639,
+      "max_abs_smd_log_degree": 0.10026173482357574
+    }
+  }
+}

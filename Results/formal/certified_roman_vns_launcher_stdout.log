@@ -1,0 +1,69 @@
+wrote row=9, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261006\initial.labels
+wrote row=8, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261007\initial.labels
+wrote row=7, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261008\initial.labels
+wrote row=6, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261009\initial.labels
+wrote row=5, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261010\initial.labels
+wrote row=4, n=4223, objective=1741 to Results\formal\ordinary_roman_vns_certified\seed_20261011\initial.labels
+wrote row=9, n=4223, objective=1739 to Results\formal\ordinary_roman_vns_certified\seed_20261012\initial.labels
+wrote row=8, n=4223, objective=1739 to Results\formal\ordinary_roman_vns_certified\seed_20261013\initial.labels
+wrote row=7, n=4223, objective=1739 to Results\formal\ordinary_roman_vns_certified\seed_20261014\initial.labels
+wrote row=6, n=4223, objective=1739 to Results\formal\ordinary_roman_vns_certified\seed_20261015\initial.labels
+{
+  "complete": true,
+  "expected_runs": 10,
+  "validated_runs": 10,
+  "validation_errors": [],
+  "seeds": [
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015
+  ],
+  "objectives": [
+    1681,
+    1683,
+    1680,
+    1684,
+    1685,
+    1685,
+    1682,
+    1678,
+    1685,
+    1683
+  ],
+  "output": "Results/formal/ppi_5layer_k5_roman_vns_certified_10seeds.csv"
+}
+{
+  "source": "certified ordinary-Roman VNS-G-FI, ten independent seeds",
+  "input_csv": "Results\\formal\\ppi_5layer_k5_roman_vns_certified_10seeds.csv",
+  "run_count": 10,
+  "background_size": 4223,
+  "sets": {
+    "R2_strict": 394,
+    "R2_8of10": 459
+  },
+  "objectives": [
+    1681.0,
+    1683.0,
+    1680.0,
+    1684.0,
+    1685.0,
+    1685.0,
+    1682.0,
+    1678.0,
+    1685.0,
+    1683.0
+  ]
+}
+R2_strict {'size': 394, 'max_abs_smd_log_degree': 0.06571798269702543, 'layerwise_smd_log_degree': [0.014157628577462202, 0.026326255834518995, -0.0155801021269871, 0.018903322671495724, 0.06571798269702543]}
+C3_strict {'size': 277, 'max_abs_smd_log_degree': 0.07397513582528661, 'layerwise_smd_log_degree': [0.01328522197659232, 0.009797008447856097, -0.01119037937632217, 0.022885393144647683, 0.07397513582528661]}
+C2_strict {'size': 180, 'max_abs_smd_log_degree': 0.10033415298891378, 'layerwise_smd_log_degree': [-0.015971973767800456, -0.0077444376514018325, -0.10033415298891378, -0.021320159138678848, -0.047560002732215695]}
+R2_8of10 {'size': 459, 'max_abs_smd_log_degree': 0.0656365522762462, 'layerwise_smd_log_degree': [0.017135595506536937, 0.024301150588919997, -0.01293090247108481, 0.016307072728257026, 0.0656365522762462]}
+C3_8of10 {'size': 379, 'max_abs_smd_log_degree': 0.07156592305860042, 'layerwise_smd_log_degree': [0.004044087260624558, 0.005902135719916682, -0.002546448303336248, 0.03464777122023622, 0.07156592305860042]}
+C2_8of10 {'size': 280, 'max_abs_smd_log_degree': 0.07605525239531247, 'layerwise_smd_log_degree': [-0.005433137187371474, -0.0009061831975735829, -0.07605525239531247, -0.0110529635124379, -0.04507415871720472]}

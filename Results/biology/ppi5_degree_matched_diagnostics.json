@@ -1,0 +1,75 @@
+{
+  "trials": 10000,
+  "seed": 20261006,
+  "matching_features": "standardized log1p degree in each of five layers",
+  "sampling": "with replacement from 20 nearest non-set proteins; exponentially distance weighted",
+  "distance_temperature": 0.01,
+  "diagnostics": {
+    "C3_strict": {
+      "set_size": 277,
+      "max_abs_standardized_mean_difference_log_degree": 0.07395925190277292,
+      "layerwise_standardized_mean_difference_log_degree": [
+        0.013288169636395447,
+        0.009690894452717563,
+        -0.011224024886232042,
+        0.02281810741861462,
+        0.07395925190277292
+      ]
+    },
+    "C2_strict": {
+      "set_size": 180,
+      "max_abs_standardized_mean_difference_log_degree": 0.10042467051153829,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.015928386650471953,
+        -0.007812060805664626,
+        -0.10042467051153829,
+        -0.021306428782924124,
+        -0.04759163151611355
+      ]
+    },
+    "C23_strict": {
+      "set_size": 541,
+      "max_abs_standardized_mean_difference_log_degree": 0.039454138715074645,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.0005400153821744449,
+        0.01136510140034877,
+        -0.039454138715074645,
+        0.0030390439686233646,
+        0.010996024305988518
+      ]
+    },
+    "C3_8of10": {
+      "set_size": 379,
+      "max_abs_standardized_mean_difference_log_degree": 0.07158958624258534,
+      "layerwise_standardized_mean_difference_log_degree": [
+        0.0040322767011905436,
+        0.005952837471581025,
+        -0.0025483059147253817,
+        0.034592558315336974,
+        0.07158958624258534
+      ]
+    },
+    "C2_8of10": {
+      "set_size": 280,
+      "max_abs_standardized_mean_difference_log_degree": 0.0760516886040771,
+      "layerwise_standardized_mean_difference_log_degree": [
+        -0.00550854892027437,
+        -0.0010206025217252323,
+        -0.0760516886040771,
+        -0.010985676138359069,
+        -0.04510271386936592
+      ]
+    },
+    "C23_8of10": {
+      "set_size": 756,
+      "max_abs_standardized_mean_difference_log_degree": 0.04122521752923668,
+      "layerwise_standardized_mean_difference_log_degree": [
+        0.0030238124823344383,
+        0.012130468624697872,
+        -0.04122521752923668,
+        0.008721833325181573,
+        0.017616342906635066
+      ]
+    }
+  }
+}
