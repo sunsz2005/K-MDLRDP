@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "instance": "n1000-M2",
+      "n": 1000,
+      "layers": 2,
+      "k": 1,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 197512106740,
+      "incremental_median_seconds": 0.0031894,
+      "full_scan_median_seconds": 0.1015133,
+      "speedup_full_over_incremental": 31.8283376184
+    },
+    {
+      "instance": "n1000-M5",
+      "n": 1000,
+      "layers": 5,
+      "k": 3,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 543004829115,
+      "incremental_median_seconds": 0.0066648,
+      "full_scan_median_seconds": 0.2484931,
+      "speedup_full_over_incremental": 37.2844046333
+    },
+    {
+      "instance": "n1000-M10",
+      "n": 1000,
+      "layers": 10,
+      "k": 10,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 646080146275,
+      "incremental_median_seconds": 0.0116886,
+      "full_scan_median_seconds": 0.5014658,
+      "speedup_full_over_incremental": 42.9021268586
+    },
+    {
+      "instance": "n1000-c100-M2-p0",
+      "n": 1000,
+      "layers": 2,
+      "k": 2,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 301615533730,
+      "incremental_median_seconds": 0.002992,
+      "full_scan_median_seconds": 0.1069469,
+      "speedup_full_over_incremental": 35.7442847594
+    },
+    {
+      "instance": "n1000-c100-M5-p30",
+      "n": 1000,
+      "layers": 5,
+      "k": 3,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 247288871265,
+      "incremental_median_seconds": 0.0063883,
+      "full_scan_median_seconds": 0.2904523,
+      "speedup_full_over_incremental": 45.4662899363
+    },
+    {
+      "instance": "n1000-c100-M10-p30",
+      "n": 1000,
+      "layers": 10,
+      "k": 10,
+      "probes": 2000,
+      "repeats": 5,
+      "verified_comparisons": 10000,
+      "mismatches": 0,
+      "checksum": 305490538275,
+      "incremental_median_seconds": 0.0137157,
+      "full_scan_median_seconds": 0.5852708,
+      "speedup_full_over_incremental": 42.6715953251
+    }
+  ],
+  "scope": "Candidate evaluator throughput, not full VNS acceleration",
+  "total_verified_comparisons": 60000,
+  "mismatches": 0
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Small exploratory VNS mechanism ablation",
+  "frozen_on": "2026-10-13",
+  "purpose": "Mechanism screening, not a replacement for the formal experiment",
+  "configurations": [
+    {"family": "RandomER", "instance": "n1000-M2", "k": 1},
+    {"family": "RandomER", "instance": "n1000-M5", "k": 3},
+    {"family": "RandomER", "instance": "n1000-M10", "k": 10},
+    {"family": "RandomC", "instance": "n1000-c100-M2-p0", "k": 2},
+    {"family": "RandomC", "instance": "n1000-c100-M5-p30", "k": 3},
+    {"family": "RandomC", "instance": "n1000-c100-M10-p30", "k": 10}
+  ],
+  "selection": "Preselected by family, layer count, threshold and perturbation; no outcome-based selection",
+  "seeds": [2026101301, 2026101302, 2026101303],
+  "initialization": "One archived Greedy solution (seed 24680) per configuration, shared by all versions and all three new search seeds",
+  "initial_ledger": "Results/formal/n1000_formal_10seed.csv",
+  "variants": ["full", "no-repair-deficit", "fixed-tie"],
+  "variant_definitions": {
+    "full": "Original VNS-G-FI search from an injected feasible Greedy incumbent",
+    "no-repair-deficit": "Only repair ranking changes from (U,D,weight) to (U,weight); deficit-based layer tie selection, general search key and Greedy fallback are unchanged",
+    "fixed-tie": "Only adaptive tie-probability updates are disabled; probability remains 0.4"
+  },
+  "time_limit_seconds": 60,
+  "time_scope": "Search including initial local search, but excluding archived Greedy construction and input loading",
+  "stopping": "Same original 10000-iteration and 5000-no-improvement limits; original repair may overrun wall limit, actual elapsed is recorded",
+  "kappa_min": 2,
+  "kappa_max": 12,
+  "tie_probability": 0.4,
+  "threads": 1,
+  "expected_runs": 54,
+  "schedule": "Fixed shuffled configuration-seed blocks, variants rotated cyclically within blocks",
+  "schedule_seed": 20261013,
+  "incremental_benchmark": {
+    "probes": 2000,
+    "repeats": 5,
+    "seed": 20261013,
+    "commit_every": 5,
+    "comparison": "Cached trial evaluation and rollback versus independent full adjacency scan on the identical trace; alternate timing order and warm up both paths",
+    "scope": "Evaluation microbenchmark, not whole-solver speedup"
+  }
+}

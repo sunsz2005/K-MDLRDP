@@ -1,0 +1,33 @@
+{
+  "audited_on": "2026-10-08",
+  "provenance": "Post-experiment audit of the workstation, installed tools, archived build script, and solver launchers; not a contemporaneous per-run environment capture.",
+  "hardware": {
+    "cpu": "Intel Core i7-6700 @ 3.40 GHz",
+    "logical_processors": 8,
+    "installed_memory_gb": 16
+  },
+  "software": {
+    "os": "Windows 10, build 19045",
+    "compiler": "MinGW-w64 GCC 8.1.0, x86_64-posix-sjlj-rev0",
+    "language_standard": "C++17",
+    "release_flags": ["-O3", "-DNDEBUG"],
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "bundled_highs": "1.2.2"
+  },
+  "threading": {
+    "cpp_search": "Single-threaded implementation",
+    "protocol_intended_threads_per_run": 1,
+    "scipy_highs": "No explicit threads option or launcher thread environment was found; solver defaults were used, and historical ILP thread counts are not certified."
+  },
+  "ilp_options": {
+    "presolve": true,
+    "time_limit": "Per-call limit supplied by the exact solver or hybrid launcher"
+  },
+  "instance_provenance": {
+    "source": "Fixed layer edge lists in the k-MLRDP reference release, reused without resampling",
+    "randomc_communities": {"30": 3, "100": 10, "1000": 100},
+    "original_generation_seeds": "Unavailable in the reference release; optimization seeds do not regenerate the graphs"
+  }
+}

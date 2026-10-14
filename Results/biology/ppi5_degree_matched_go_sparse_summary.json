@@ -1,0 +1,49 @@
+{
+  "source": "Results/biology/ppi5_degree_matched_go.csv",
+  "minimum_annotated_candidate_proteins": 5,
+  "original_bh_adjustment_retained": true,
+  "bh_eligible_background_terms": 3570,
+  "sets": {
+    "R2_strict": {
+      "significant_all": 1300,
+      "significant_with_minimum_count": 498,
+      "single_candidate_significant_all": 282
+    },
+    "C3_strict": {
+      "significant_all": 1118,
+      "significant_with_minimum_count": 376,
+      "single_candidate_significant_all": 279
+    },
+    "C2_strict": {
+      "significant_all": 639,
+      "significant_with_minimum_count": 101,
+      "single_candidate_significant_all": 324
+    }
+  },
+  "comparisons": {
+    "R2_strict_vs_C3_strict": {
+      "all": {
+        "intersection": 858,
+        "union": 1560,
+        "jaccard": 0.55
+      },
+      "minimum_count": {
+        "intersection": 293,
+        "union": 581,
+        "jaccard": 0.504
+      }
+    },
+    "R2_strict_vs_C2_strict": {
+      "all": {
+        "intersection": 229,
+        "union": 1710,
+        "jaccard": 0.134
+      },
+      "minimum_count": {
+        "intersection": 24,
+        "union": 575,
+        "jaccard": 0.042
+      }
+    }
+  }
+}

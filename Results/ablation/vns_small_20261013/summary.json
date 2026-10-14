@@ -1,0 +1,137 @@
+{
+  "completed": 54,
+  "expected": 54,
+  "validation_errors": 0,
+  "interpretation": "Exploratory six-graph screen with three seeds; no confirmatory significance claims",
+  "variants": {
+    "full": {
+      "runs": 18,
+      "mean_objective": 440.8333333333333,
+      "mean_elapsed_seconds": 57.234676622222224,
+      "repair_calls": 15830,
+      "repair_steps": 17323,
+      "fallback_count": 0,
+      "repairs_without_fallback": 15830,
+      "accepted_ties": 54829,
+      "mean_evaluations_per_second": 441506.8346818957
+    },
+    "no-repair-deficit": {
+      "runs": 18,
+      "mean_objective": 440.77777777777777,
+      "mean_elapsed_seconds": 57.325693916666665,
+      "repair_calls": 15947,
+      "repair_steps": 17450,
+      "fallback_count": 0,
+      "repairs_without_fallback": 15947,
+      "accepted_ties": 55408,
+      "mean_evaluations_per_second": 444211.09863863455
+    },
+    "fixed-tie": {
+      "runs": 18,
+      "mean_objective": 441.55555555555554,
+      "mean_elapsed_seconds": 58.91082916111111,
+      "repair_calls": 20029,
+      "repair_steps": 25846,
+      "fallback_count": 0,
+      "repairs_without_fallback": 20029,
+      "accepted_ties": 18541,
+      "mean_evaluations_per_second": 449440.1430982418
+    }
+  },
+  "paired_comparisons": {
+    "no-repair-deficit": {
+      "full_wins_ties_losses": [
+        0,
+        17,
+        1
+      ],
+      "paired_runs": 18,
+      "mean_full_relative_improvement_percent": -0.017692852087756547,
+      "by_configuration": [
+        {
+          "instance": "n1000-M2",
+          "k": 1,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        },
+        {
+          "instance": "n1000-M5",
+          "k": 3,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        },
+        {
+          "instance": "n1000-M10",
+          "k": 10,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        },
+        {
+          "instance": "n1000-c100-M2-p0",
+          "k": 2,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": -0.10615711252653927
+        },
+        {
+          "instance": "n1000-c100-M5-p30",
+          "k": 3,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        },
+        {
+          "instance": "n1000-c100-M10-p30",
+          "k": 10,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        }
+      ]
+    },
+    "fixed-tie": {
+      "full_wins_ties_losses": [
+        8,
+        7,
+        3
+      ],
+      "paired_runs": 18,
+      "mean_full_relative_improvement_percent": 0.20685917141902715,
+      "by_configuration": [
+        {
+          "instance": "n1000-M2",
+          "k": 1,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.0
+        },
+        {
+          "instance": "n1000-M5",
+          "k": 3,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": -0.0716832744385106
+        },
+        {
+          "instance": "n1000-M10",
+          "k": 10,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": -0.04952947003467063
+        },
+        {
+          "instance": "n1000-c100-M2-p0",
+          "k": 2,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.7331163601754421
+        },
+        {
+          "instance": "n1000-c100-M5-p30",
+          "k": 3,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.3683241252302026
+        },
+        {
+          "instance": "n1000-c100-M10-p30",
+          "k": 10,
+          "paired_seeds": 3,
+          "mean_full_relative_improvement_percent": 0.26092728758169936
+        }
+      ]
+    }
+  }
+}

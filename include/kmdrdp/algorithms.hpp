@@ -12,6 +12,20 @@ namespace kmdrdp {
 
 enum class LocalSearchType { FirstImprovement = 1, BestImprovement = 2 };
 
+struct SearchDiagnostics {
+    std::uint64_t repair_calls = 0;
+    std::uint64_t repair_steps = 0;
+    std::uint64_t repair_evaluations = 0;
+    std::uint64_t repairs_without_fallback = 0;
+    std::uint64_t fallback_count = 0;
+    std::uint64_t local_search_evaluations = 0;
+    std::uint64_t shaking_attempts = 0;
+    std::uint64_t accepted_ties = 0;
+    std::uint64_t accepted_improvements = 0;
+    double repair_seconds = 0.0;
+    double final_tie_probability = 0.0;
+};
+
 struct SolveResult {
     std::vector<std::uint8_t> labels;
     int objective = 0;
@@ -52,18 +66,25 @@ struct VNSConfig {
     std::uint64_t seed = 13579;
     DominationMode mode = DominationMode::DoubleRoman;
     std::vector<std::uint8_t> initial_labels;
+    // Defaults preserve the original algorithm. Ablation changes repair
+    // ranking only; layer selection, Greedy fallback and search keys stay fixed.
+    bool deficit_guided_repair = true;
+    bool adaptive_tie_probability = true;
+    SearchDiagnostics* diagnostics = nullptr;
 };
 
 std::vector<std::uint8_t> greedy_construct(const MultiplexGraph& graph,
                                            int k,
                                            std::mt19937_64& rng,
                                            DominationMode mode = DominationMode::DoubleRoman);
-void repair(EvaluationState& state, std::mt19937_64& rng);
+void repair(EvaluationState& state, std::mt19937_64& rng,
+            bool deficit_guided = true, SearchDiagnostics* diagnostics = nullptr);
 void reduce_feasible(EvaluationState& state, std::mt19937_64& rng);
 void local_search(EvaluationState& state,
                   LocalSearchType type,
                   std::mt19937_64& rng,
-                  const std::chrono::steady_clock::time_point& deadline);
+                  const std::chrono::steady_clock::time_point& deadline,
+                  SearchDiagnostics* diagnostics = nullptr);
 
 SolveResult solve_greedy(const MultiplexGraph& graph,
                          int k,

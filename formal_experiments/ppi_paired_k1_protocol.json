@@ -1,0 +1,35 @@
+{
+  "name": "PPI k=1 matched ten-seed method comparison",
+  "frozen_on": "2026-10-13",
+  "instances": ["PPI-3Layers", "PPI-4Layers", "PPI-5Layers"],
+  "k": 1,
+  "seeds": [13579, 24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "new_seeds": [24680, 97531, 86420, 112358, 271828, 314159, 161803, 424242, 987654],
+  "new_methods": ["greedy", "vns-g-fi"],
+  "reuse": {
+    "hybrid_30": "Results/formal/ppi_formal_ga_g_hybrid_k1_10seeds.csv",
+    "greedy_gate_3": "Results/formal/ppi_gate_greedy.csv",
+    "vns_gate_3": "Results/formal/ppi_gate_vns_g_fi.csv"
+  },
+  "time_limit_seconds": 3600,
+  "greedy_constructions": 10,
+  "vns": {"kappa_min": 2, "kappa_max": 12, "tie_probability": 0.4,
+          "local_search": 1, "iterations": 10000, "no_improve_limit": 5000,
+          "initialization": "greedy", "greedy_candidates": 10},
+  "workers": 1,
+  "new_runs": 54,
+  "reused_runs": 36,
+  "combined_expected_runs": 90,
+  "schedule": "Instances in listed order; for each new seed, Greedy followed by VNS",
+  "controls": [
+    "Reuse original published Greedy/VNS binaries; no compilation or changes to their algorithms",
+    "Match seeds and parameters to archived Hybrid runs, not the injected-initial-state ablation",
+    "Use separate output folder and replay all 90 complete label vectors",
+    "Greedy has no internal wall-time deadline; record actual construction time",
+    "VNS uses original 3600-second ceiling and original iteration/stagnation stops; no shortening",
+    "Archived Hybrid ILP thread count was not pinned; runtime comparisons remain descriptive"
+  ],
+  "analysis": "Per-instance paired objectives, W-T-L, relative improvements, runtime, and seed-13579-excluded sensitivity; no claim of independent biological replications",
+  "runtime_estimate_seconds_from_gate": 68864.845,
+  "estimate_note": "About 19.1 hours serial from gate timings; allow 18-24 hours, conservatively about 30 hours"
+}

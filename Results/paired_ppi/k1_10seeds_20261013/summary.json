@@ -1,0 +1,302 @@
+{
+  "new_completed": 54,
+  "new_expected": 54,
+  "combined_rows": 90,
+  "combined_expected": 90,
+  "validation_errors": 0,
+  "complete": true,
+  "summary": [
+    {
+      "instance": "PPI-3Layers",
+      "methods": {
+        "greedy": {
+          "runs": 10,
+          "mean_objective": 653.7,
+          "sample_sd": 1.0593499054713802,
+          "range": [
+            652,
+            655
+          ],
+          "mean_elapsed_seconds": 267.9966869
+        },
+        "vns-g-fi": {
+          "runs": 10,
+          "mean_objective": 653.2,
+          "sample_sd": 1.1352924243950935,
+          "range": [
+            652,
+            655
+          ],
+          "mean_elapsed_seconds": 1821.5627829
+        },
+        "ga-g-hybrid": {
+          "runs": 10,
+          "mean_objective": 333.4,
+          "sample_sd": 4.115013163202923,
+          "range": [
+            328,
+            338
+          ],
+          "mean_elapsed_seconds": 1766.0269000000087
+        }
+      },
+      "comparisons": {
+        "ga-g-hybrid_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 48.99824674484364
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 49.03113081912228
+          }
+        },
+        "ga-g-hybrid_vs_vns-g-fi": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 48.959047431815186
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 48.98757602686844
+          }
+        },
+        "vns-g-fi_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              4,
+              6,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 0.07645267088701674
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              4,
+              5,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 0.08494741209668527
+          }
+        }
+      }
+    },
+    {
+      "instance": "PPI-4Layers",
+      "methods": {
+        "greedy": {
+          "runs": 10,
+          "mean_objective": 218,
+          "sample_sd": 5.333333333333333,
+          "range": [
+            208,
+            224
+          ],
+          "mean_elapsed_seconds": 136.21393030000002
+        },
+        "vns-g-fi": {
+          "runs": 10,
+          "mean_objective": 190.4,
+          "sample_sd": 6.328067986711619,
+          "range": [
+            177,
+            198
+          ],
+          "mean_elapsed_seconds": 2832.9849612
+        },
+        "ga-g-hybrid": {
+          "runs": 10,
+          "mean_objective": 157.3,
+          "sample_sd": 2.7507574714370344,
+          "range": [
+            155,
+            164
+          ],
+          "mean_elapsed_seconds": 1697.2608999999998
+        }
+      },
+      "comparisons": {
+        "ga-g-hybrid_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 27.811164175701613
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 27.748140375404198
+          }
+        },
+        "ga-g-hybrid_vs_vns-g-fi": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 17.309971831878997
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 17.228720133931986
+          }
+        },
+        "vns-g-fi_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 12.637594332647506
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 12.64037007931805
+          }
+        }
+      }
+    },
+    {
+      "instance": "PPI-5Layers",
+      "methods": {
+        "greedy": {
+          "runs": 10,
+          "mean_objective": 289.8,
+          "sample_sd": 1.3165611772087666,
+          "range": [
+            288,
+            292
+          ],
+          "mean_elapsed_seconds": 99.3272432
+        },
+        "vns-g-fi": {
+          "runs": 10,
+          "mean_objective": 289.1,
+          "sample_sd": 1.7919573407620817,
+          "range": [
+            286,
+            292
+          ],
+          "mean_elapsed_seconds": 1363.2180389
+        },
+        "ga-g-hybrid": {
+          "runs": 10,
+          "mean_objective": 143.2,
+          "sample_sd": 4.825856285561029,
+          "range": [
+            140,
+            155
+          ],
+          "mean_elapsed_seconds": 1581.9203000000095
+        }
+      },
+      "comparisons": {
+        "ga-g-hybrid_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 50.584556927979264
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 51.05319858587469
+          }
+        },
+        "ga-g-hybrid_vs_vns-g-fi": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              10,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 50.46560756066081
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              9,
+              0,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 50.92103262218752
+          }
+        },
+        "vns-g-fi_vs_greedy": {
+          "all_ten": {
+            "paired_runs": 10,
+            "first_wins_ties_losses": [
+              4,
+              6,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 0.24174137177354663
+          },
+          "gate_seed_excluded": {
+            "paired_runs": 9,
+            "first_wins_ties_losses": [
+              4,
+              5,
+              0
+            ],
+            "mean_paired_relative_improvement_percent": 0.2686015241928296
+          }
+        }
+      }
+    }
+  ],
+  "interpretation": "Matched algorithm seeds on three nested reconstructed PPI networks; gate reuse disclosed; descriptive runtime comparisons"
+}

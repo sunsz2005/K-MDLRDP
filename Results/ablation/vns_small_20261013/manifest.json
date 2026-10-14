@@ -1,0 +1,552 @@
+{
+  "protocol": {
+    "name": "Small exploratory VNS mechanism ablation",
+    "frozen_on": "2026-10-13",
+    "purpose": "Mechanism screening, not a replacement for the formal experiment",
+    "configurations": [
+      {
+        "family": "RandomER",
+        "instance": "n1000-M2",
+        "k": 1
+      },
+      {
+        "family": "RandomER",
+        "instance": "n1000-M5",
+        "k": 3
+      },
+      {
+        "family": "RandomER",
+        "instance": "n1000-M10",
+        "k": 10
+      },
+      {
+        "family": "RandomC",
+        "instance": "n1000-c100-M2-p0",
+        "k": 2
+      },
+      {
+        "family": "RandomC",
+        "instance": "n1000-c100-M5-p30",
+        "k": 3
+      },
+      {
+        "family": "RandomC",
+        "instance": "n1000-c100-M10-p30",
+        "k": 10
+      }
+    ],
+    "selection": "Preselected by family, layer count, threshold and perturbation; no outcome-based selection",
+    "seeds": [
+      2026101301,
+      2026101302,
+      2026101303
+    ],
+    "initialization": "One archived Greedy solution (seed 24680) per configuration, shared by all versions and all three new search seeds",
+    "initial_ledger": "Results/formal/n1000_formal_10seed.csv",
+    "variants": [
+      "full",
+      "no-repair-deficit",
+      "fixed-tie"
+    ],
+    "variant_definitions": {
+      "full": "Original VNS-G-FI search from an injected feasible Greedy incumbent",
+      "no-repair-deficit": "Only repair ranking changes from (U,D,weight) to (U,weight); deficit-based layer tie selection, general search key and Greedy fallback are unchanged",
+      "fixed-tie": "Only adaptive tie-probability updates are disabled; probability remains 0.4"
+    },
+    "time_limit_seconds": 60,
+    "time_scope": "Search including initial local search, but excluding archived Greedy construction and input loading",
+    "stopping": "Same original 10000-iteration and 5000-no-improvement limits; original repair may overrun wall limit, actual elapsed is recorded",
+    "kappa_min": 2,
+    "kappa_max": 12,
+    "tie_probability": 0.4,
+    "threads": 1,
+    "expected_runs": 54,
+    "schedule": "Fixed shuffled configuration-seed blocks, variants rotated cyclically within blocks",
+    "schedule_seed": 20261013,
+    "incremental_benchmark": {
+      "probes": 2000,
+      "repeats": 5,
+      "seed": 20261013,
+      "commit_every": 5,
+      "comparison": "Cached trial evaluation and rollback versus independent full adjacency scan on the identical trace; alternate timing order and warm up both paths",
+      "scope": "Evaluation microbenchmark, not whole-solver speedup"
+    }
+  },
+  "protocol_sha256": "f92f8dd1fb0ba2fd640582101446a527251f7542dd22562c6b109e3eb2b00306",
+  "initial_ledger_sha256": "3b5631d9480cc42b805f3010f984ea0f098da19b78c337ba52ce15542da8691d",
+  "configurations": [
+    {
+      "family": "RandomER",
+      "instance": "n1000-M2",
+      "k": 1,
+      "index": 0,
+      "directory": "REFERENCE_INSTANCES\\RandomER\\n1000-M2",
+      "layers": 2,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\0.txt",
+      "initial_sha256": "8d93f57a254cb73f5bf144e20b751bc4347861e0ec7e94523f3fa8e02af45f3d",
+      "initial_validation": {
+        "objective": 316,
+        "valid_layers": 1,
+        "layer_violations": [
+          0,
+          238
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "4fe99bfec0119b7e0b1ee4c3ecc359d9abdfd6414923efebc7475258466c079d",
+        "layer_2.txt": "44186212703bbe16824d5f2ee2092a80dab2a99cd43f377607d48c6b5a44ab24"
+      }
+    },
+    {
+      "family": "RandomER",
+      "instance": "n1000-M5",
+      "k": 3,
+      "index": 1,
+      "directory": "REFERENCE_INSTANCES\\RandomER\\n1000-M5",
+      "layers": 5,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\1.txt",
+      "initial_sha256": "d3d77504802a9aed2d5e4cf03ab74d9e9581ae73b0d7ce3b42c6420f24d9cb6c",
+      "initial_validation": {
+        "objective": 472,
+        "valid_layers": 3,
+        "layer_violations": [
+          93,
+          0,
+          108,
+          0,
+          0
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "d7abd6de180e6948d069465322bb97d7b340da4407a16c81fe842479a3102cac",
+        "layer_2.txt": "9ce4659398355ede443469a9f681c41f453928ae7b2e4ee3bb2609aae4164abb",
+        "layer_3.txt": "badf3f1475e38cfbeb3a34e524e98580bcb391f0e42d10e60c7fcb4b2a0fb928",
+        "layer_4.txt": "415c0f8ff57f15f09396f0aedc6c6ba6f229f0a7c4ff9e41283438a34d6e5bbf",
+        "layer_5.txt": "2a5ed47dcdefedb0480e6fc20efb43eb3af74952ed852253a2ea1ba8f1deaceb"
+      }
+    },
+    {
+      "family": "RandomER",
+      "instance": "n1000-M10",
+      "k": 10,
+      "index": 2,
+      "directory": "REFERENCE_INSTANCES\\RandomER\\n1000-M10",
+      "layers": 10,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\2.txt",
+      "initial_sha256": "b99d87f1e07df7b5455a6989b3642a94530dfde41958241bec2e89e4dff07de4",
+      "initial_validation": {
+        "objective": 677,
+        "valid_layers": 10,
+        "layer_violations": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "49ed11292380f3829d614b5598bbcbe6af3e0302e9b26036fe2d7036f37d029e",
+        "layer_10.txt": "b3231aafb338c25c663bdc1577fe0c04ddaef8e92a17f0da96d56d98d1866927",
+        "layer_2.txt": "3c2e35e272ec1be57eac2df248dfd456fcc6721d6c936baf9a5e734b7125ce42",
+        "layer_3.txt": "d3b72d57f65394a2ea6bd5896a2dc78c312a7805a8731aabf4cf334b3c324c2c",
+        "layer_4.txt": "4c529981afa4d44e94cbe69a69423a3d6b491467e8a525de0a033936bb4701a5",
+        "layer_5.txt": "adec9d91d0534edf3bf75b460fd421921aabd5c345eadc99a151a889e4013eb5",
+        "layer_6.txt": "f80cd69a23798712a17162eb4308f1a9bb74489d3b0967fce0cf1fd00e40401d",
+        "layer_7.txt": "7860ce3c2d8c9a25f2aea0f26d7a140d91f14c2e79aee3650e3152ba9d5f275e",
+        "layer_8.txt": "c5ce37873341d859b9969faca603297c42995ac029ce2fd3f7af8ad4b9d116e8",
+        "layer_9.txt": "b0bfb9c06a455f90a9d3b99a52a826ed58f9c1da2d31403d1a662bc8b520e791"
+      }
+    },
+    {
+      "family": "RandomC",
+      "instance": "n1000-c100-M2-p0",
+      "k": 2,
+      "index": 3,
+      "directory": "REFERENCE_INSTANCES\\RandomC\\n1000-c100-M2-p0",
+      "layers": 2,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\3.txt",
+      "initial_sha256": "cbf48efb795ed1cf71a544a39d6ef473c63a81fb75743bdd04ed6b44463c0b4d",
+      "initial_validation": {
+        "objective": 319,
+        "valid_layers": 2,
+        "layer_violations": [
+          0,
+          0
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "612ad3727e6332cca67c8b1507e0dec5215be3f73f7238a8b296337d58019c0b",
+        "layer_2.txt": "273b7275955ea234f572a5c9453d986f72726efec6e7416144eb36175c5e66d4"
+      }
+    },
+    {
+      "family": "RandomC",
+      "instance": "n1000-c100-M5-p30",
+      "k": 3,
+      "index": 4,
+      "directory": "REFERENCE_INSTANCES\\RandomC\\n1000-c100-M5-p30",
+      "layers": 5,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\4.txt",
+      "initial_sha256": "efde6f2129c88a485d03bc5337469721d99734a5ce133d9d9aa30ea37b163fa5",
+      "initial_validation": {
+        "objective": 365,
+        "valid_layers": 3,
+        "layer_violations": [
+          0,
+          87,
+          0,
+          0,
+          111
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "12563cd66d56c3e288cf14c28ebc06ebaf5e2df1a9fda663e11b2780f9e214c7",
+        "layer_2.txt": "6011358287c4cfafdf95a863cd05b80d83cc444857621f92c95d2aadcb12d06c",
+        "layer_3.txt": "054400c28032deccb24d4b59adb23a17623ee99c32a62c37e0f12f54c77f53ec",
+        "layer_4.txt": "38959e92533d1a087a8b277b16b0a89d320b4dfb339822d1af402a98ae0be7bd",
+        "layer_5.txt": "e25a78e469c8c74e044f3c343616a7ade7e32f826e2bef40de062f157719f7c8"
+      }
+    },
+    {
+      "family": "RandomC",
+      "instance": "n1000-c100-M10-p30",
+      "k": 10,
+      "index": 5,
+      "directory": "REFERENCE_INSTANCES\\RandomC\\n1000-c100-M10-p30",
+      "layers": 10,
+      "initial_file": "Results\\ablation\\vns_small_20261013\\initial\\5.txt",
+      "initial_sha256": "4e0384a33c9f4312415758b785cc4d8ec3a0085ddabddab78b7bfd9fbbd42d50",
+      "initial_validation": {
+        "objective": 514,
+        "valid_layers": 10,
+        "layer_violations": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "validation_errors": 0
+      },
+      "layer_sha256": {
+        "layer_1.txt": "4f16d5a89597ea5966fdaba22504341ad7a2b08d85b6252796566b7fba80955d",
+        "layer_10.txt": "1536f7010fc3268f1797442e2523f402c67554bba94473f98b720655cb3d8a5a",
+        "layer_2.txt": "be3713d3184b16832e42a332ae7f7490d2167138612938d65dfb0cadd2c515c6",
+        "layer_3.txt": "d80d4b6df3d026b2178be05bcaff2218ff86f9125b521dbd3e9b7a15802a2922",
+        "layer_4.txt": "1ba61cfce7e6abb68c3961c4e40f8a5c18bcd4aff692d76b5157b9f67cb53755",
+        "layer_5.txt": "df4fdb4ab2385d822b72b05e48f5e6bcfc616335e2201f4a9cac7d0af071f507",
+        "layer_6.txt": "6b7a0f8a9c6da321ec468a01f14e6f688be631f9a0a9d1acdf59ed01dca48f12",
+        "layer_7.txt": "5f81cc1b77262a282aa9d970ad229670afabbaf0ddf0ef9716172df11a4c6112",
+        "layer_8.txt": "aec32b29d8c1842bd415d27a5177c49a8350876e86f88f86bbf5457a27169a84",
+        "layer_9.txt": "56d3c0a0334435c568f97e4d9383396e455c5e57b8b8747955bcab66e6826821"
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "config_index": 4,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 1,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 5,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 0,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101302,
+      "variant": "full"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101302,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 3,
+      "seed": 2026101302,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101301,
+      "variant": "no-repair-deficit"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101301,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 2,
+      "seed": 2026101301,
+      "variant": "full"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101303,
+      "variant": "fixed-tie"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101303,
+      "variant": "full"
+    },
+    {
+      "config_index": 4,
+      "seed": 2026101303,
+      "variant": "no-repair-deficit"
+    }
+  ],
+  "artifact_sha256": {
+    "include/kmdrdp/algorithms.hpp": "b16c7e35c9dc710bc50420e44916c7cc2c3cc413d9cf6aa4bc956a50a3bfcade",
+    "include/kmdrdp/evaluator.hpp": "246d8c63bd4510d7bc7a4a8ed3e6b40b40efad9063488aee993768e68ea70507",
+    "include/kmdrdp/graph.hpp": "1b67f6b6650cf012c1e6acc132d31267e9df7f6d390925330b3008e74734e1cf",
+    "src/graph.cpp": "2333b7228f6ba21dfaf6e92ff72337fe19b7756f1910252763de590e6503158c",
+    "src/evaluator.cpp": "d60f364eb7355bb9de93df8e0e8f2f2bc2ca41ac42b9d47086e025bfbd4a9e44",
+    "src/algorithms.cpp": "d175d2bfc9434a017916c8ac0e346d55284ace64817b5f4bd6858547f184f291",
+    "apps/vns_ablation_main.cpp": "4d5f2bd62ce8fc4b669e703a652abe00d60bcdf13a0a9d1c24476ade109afe03",
+    "apps/cli_util.hpp": "92910490957f52f407cac3f842bab2da9e67a7125b66d7dd571899a0490ea08b",
+    "apps/evaluation_benchmark_main.cpp": "f46939759f91a2478d052f8ec11e776e65c4bf7e8923aa75fd0027a76e156ba9",
+    "tests/test_ablation.cpp": "9e0762503b0e937b96f7daa2c53e73e1bc17467257e7dd7478e2579472d8ffaa",
+    "python/run_vns_ablation.py": "5018d5d8c404825e8f3e74578f1a6cb97b8544a62fc079706c7d9c85ff17bf20",
+    "formal_experiments/vns_ablation_protocol.json": "f92f8dd1fb0ba2fd640582101446a527251f7542dd22562c6b109e3eb2b00306",
+    "formal_experiments/build_vns_ablation.ps1": "da1351137fd7e34fb08643a8583579356004660435861f0c67583424e29dad15",
+    "vns_ablation.exe": "dc4957264d82e69ec4c8853aee2ff17c26666cc3fc1aafd35148e881a69a3216",
+    "evaluation_benchmark.exe": "923074b2c5d65be589874cc38786beda3930d226fb44d8b399a87c341060d61e"
+  },
+  "created_local_date": "2026-10-13",
+  "prepared_unix_time": 1791891227.6535575
+}

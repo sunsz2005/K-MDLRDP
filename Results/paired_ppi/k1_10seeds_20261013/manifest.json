@@ -1,0 +1,398 @@
+{
+  "protocol": {
+    "name": "PPI k=1 matched ten-seed method comparison",
+    "frozen_on": "2026-10-13",
+    "instances": [
+      "PPI-3Layers",
+      "PPI-4Layers",
+      "PPI-5Layers"
+    ],
+    "k": 1,
+    "seeds": [
+      13579,
+      24680,
+      97531,
+      86420,
+      112358,
+      271828,
+      314159,
+      161803,
+      424242,
+      987654
+    ],
+    "new_seeds": [
+      24680,
+      97531,
+      86420,
+      112358,
+      271828,
+      314159,
+      161803,
+      424242,
+      987654
+    ],
+    "new_methods": [
+      "greedy",
+      "vns-g-fi"
+    ],
+    "reuse": {
+      "hybrid_30": "Results/formal/ppi_formal_ga_g_hybrid_k1_10seeds.csv",
+      "greedy_gate_3": "Results/formal/ppi_gate_greedy.csv",
+      "vns_gate_3": "Results/formal/ppi_gate_vns_g_fi.csv"
+    },
+    "time_limit_seconds": 3600,
+    "greedy_constructions": 10,
+    "vns": {
+      "kappa_min": 2,
+      "kappa_max": 12,
+      "tie_probability": 0.4,
+      "local_search": 1,
+      "iterations": 10000,
+      "no_improve_limit": 5000,
+      "initialization": "greedy",
+      "greedy_candidates": 10
+    },
+    "workers": 1,
+    "new_runs": 54,
+    "reused_runs": 36,
+    "combined_expected_runs": 90,
+    "schedule": "Instances in listed order; for each new seed, Greedy followed by VNS",
+    "controls": [
+      "Reuse original published Greedy/VNS binaries; no compilation or changes to their algorithms",
+      "Match seeds and parameters to archived Hybrid runs, not the injected-initial-state ablation",
+      "Use separate output folder and replay all 90 complete label vectors",
+      "Greedy has no internal wall-time deadline; record actual construction time",
+      "VNS uses original 3600-second ceiling and original iteration/stagnation stops; no shortening",
+      "Archived Hybrid ILP thread count was not pinned; runtime comparisons remain descriptive"
+    ],
+    "analysis": "Per-instance paired objectives, W-T-L, relative improvements, runtime, and seed-13579-excluded sensitivity; no claim of independent biological replications",
+    "runtime_estimate_seconds_from_gate": 68864.845,
+    "estimate_note": "About 19.1 hours serial from gate timings; allow 18-24 hours, conservatively about 30 hours"
+  },
+  "protocol_sha256": "aa8a4930b2bcc66f2b2a27b587f5e3fb5bd9ad8cb02e0e7447995fb038410055",
+  "inputs": {
+    "PPI-3Layers": {
+      "directory": "Instances\\PPI\\PPI-3Layers",
+      "layer_sha256": {
+        "layer_1.txt": "034aa051d5c20489b3dde671aa18ac6b21c3133e3e37e455e0e050774439d9fc",
+        "layer_2.txt": "9c5c138577ff1238abc3878424ee38ca92b9df0a10b18bf77126d20098346d5e",
+        "layer_3.txt": "b2f25e3694cb45ff770f096b49601b319627df97f4b62f53d312411e79a738a9"
+      }
+    },
+    "PPI-4Layers": {
+      "directory": "Instances\\PPI\\PPI-4Layers",
+      "layer_sha256": {
+        "layer_1.txt": "fc13a26f729e16299a5483e94a519da91484c7e952c0da119330296e59477b96",
+        "layer_2.txt": "99318cb84f1a75d3bf2d6d9494e53ba885d424747898a56d85d88786fe57e111",
+        "layer_3.txt": "78eebab649ba5fb51950883174fed98feaf3f70cf3ba6e642eb22509c47d4799",
+        "layer_4.txt": "bb5fd90ece5b5cd26e2499d8235e0794ec2954eb2ec9ca40e011c41fcba1adac"
+      }
+    },
+    "PPI-5Layers": {
+      "directory": "Instances\\PPI\\PPI-5Layers",
+      "layer_sha256": {
+        "layer_1.txt": "9d7d4df7b7d8a543aa1068db0f2a75fc6a7c9055dd1c7cb1602d5d08a443349b",
+        "layer_2.txt": "2fcbf57a7ab4a2a4207267c80ee109aceed9a05cce7a64d7262b5cf298b96a67",
+        "layer_3.txt": "6de81335f726cbf708ad2f98192a6438802d1597cd8fd63b5da92cee73aebe50",
+        "layer_4.txt": "31af9e044319fb96e038323f85e8df9a65c9acf09b8ca1ae59277278fb9c169a",
+        "layer_5.txt": "dcc8e617ebfc5d5034765dce9b9e1ffbc97b33cb17157b4a83672c085ee7586d"
+      }
+    }
+  },
+  "source_ledger_sha256": {
+    "Results/formal/ppi_formal_ga_g_hybrid_k1_10seeds.csv": "7996f4346712f8a1518e1603cf1fae66d711ee63a8c039e2f97cc78db33fd1e8",
+    "Results/formal/ppi_gate_greedy.csv": "15daf2f17e21e4546b4441fdf6ab9114d8b9bf11b1abb6cfcb5bf698692c491f",
+    "Results/formal/ppi_gate_vns_g_fi.csv": "374330195eb52d6801fe90ddec6d8e0ed6abbb8d87e4540f89e43a90afd31030"
+  },
+  "artifact_sha256": {
+    "python/run_ppi_paired_k1.py": "9f04cbe299773a9205254a566021d20cd335475ada7e99dd76d256a1b42721cd",
+    "python/run_experiments.py": "58c80a61c8b800f941af8666014ac5c39b41f74b0214cb7ebf043ba363bb3146",
+    "python/exact_ilp.py": "a5e168bf931530f2f7a3d4504b24be7171876d70bb3871a7d07ee6ae13716ce7",
+    "formal_experiments/ppi_paired_k1_protocol.json": "aa8a4930b2bcc66f2b2a27b587f5e3fb5bd9ad8cb02e0e7447995fb038410055",
+    "src/algorithms.cpp": "d175d2bfc9434a017916c8ac0e346d55284ace64817b5f4bd6858547f184f291",
+    "src/evaluator.cpp": "d60f364eb7355bb9de93df8e0e8f2f2bc2ca41ac42b9d47086e025bfbd4a9e44",
+    "src/graph.cpp": "2333b7228f6ba21dfaf6e92ff72337fe19b7756f1910252763de590e6503158c",
+    "include/kmdrdp/algorithms.hpp": "b16c7e35c9dc710bc50420e44916c7cc2c3cc413d9cf6aa4bc956a50a3bfcade",
+    "include/kmdrdp/evaluator.hpp": "246d8c63bd4510d7bc7a4a8ed3e6b40b40efad9063488aee993768e68ea70507",
+    "include/kmdrdp/graph.hpp": "1b67f6b6650cf012c1e6acc132d31267e9df7f6d390925330b3008e74734e1cf",
+    "apps/vns_main.cpp": "f8077ae44fe5393562b3b589d8b5309dbb409d88e6bc31f0f93b3b91b5886714",
+    "apps/greedy_main.cpp": "0146b2cc6f753e3b8388a7180134cfef8ab76d0540085a6aa69c9defd2e47cf7",
+    "apps/cli_util.hpp": "92910490957f52f407cac3f842bab2da9e67a7125b66d7dd571899a0490ea08b",
+    "bin/kmdrdp_greedy.exe": "4a4f9e9eef3c0fd37e87141ee6e3fec578253ec2a04feb3e48a5ca7e07bc8cca",
+    "bin/kmdrdp_vns.exe": "30e7826f8bd9b78371c24d131b5662e1d71df0bccfbdd424a4dd7d99c9ac4bbc"
+  },
+  "schedule": [
+    {
+      "instance": "PPI-3Layers",
+      "seed": 24680,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 24680,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 97531,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 97531,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 86420,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 86420,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 112358,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 112358,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 271828,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 271828,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 314159,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 314159,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 161803,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 161803,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 424242,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 424242,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 987654,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-3Layers",
+      "seed": 987654,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 24680,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 24680,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 97531,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 97531,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 86420,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 86420,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 112358,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 112358,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 271828,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 271828,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 314159,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 314159,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 161803,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 161803,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 424242,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 424242,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 987654,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-4Layers",
+      "seed": 987654,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 24680,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 24680,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 97531,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 97531,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 86420,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 86420,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 112358,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 112358,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 271828,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 271828,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 314159,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 314159,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 161803,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 161803,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 424242,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 424242,
+      "method": "vns-g-fi"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 987654,
+      "method": "greedy"
+    },
+    {
+      "instance": "PPI-5Layers",
+      "seed": 987654,
+      "method": "vns-g-fi"
+    }
+  ],
+  "prepared_unix_time": 1791897476.4766533,
+  "reused_rows_sha256": "bd74596d8c80070b5964c5991bd604ba1193cb754a97d71143fc191072230d1d"
+}

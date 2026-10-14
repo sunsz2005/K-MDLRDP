@@ -203,6 +203,10 @@ def main() -> int:
     protocol = {
         "sets": SETS,
         "trials": TRIALS,
+        "random_seeds": {set_name: 20_261_200 + set_index
+                         for set_index, set_name in enumerate(SETS)},
+        "matching_temperature": TEMPERATURE,
+        "matching_neighbors": NEIGHBORS,
         "matching": "standardized log1p degree in all five PPI layers",
         "sampling": "20 nearest non-set proteins with replacement and exponential distance weights",
         "go_propagation": "is_a and part_of ancestors",

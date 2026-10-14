@@ -2,3 +2,9 @@
 *.exe binary
 *.gz binary
 *.pdf binary
+
+# Keep frozen source snapshots and initial label files byte-identical to their
+# recorded hashes; JSON release records remain ordinary line-normalized text.
+Results/ablation/**/source_snapshot/** -text -diff
+Results/paired_ppi/**/source_snapshot/** -text -diff
+Results/ablation/**/initial/*.txt -text -diff

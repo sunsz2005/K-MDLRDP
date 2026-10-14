@@ -118,10 +118,17 @@ std::vector<std::uint8_t> greedy_construct(const MultiplexGraph& graph,
     return state.labels();
 }
 
-void repair(EvaluationState& state, std::mt19937_64& rng) {
+void repair(EvaluationState& state, std::mt19937_64& rng,
+            bool deficit_guided, SearchDiagnostics* diagnostics) {
+    const auto repair_start = diagnostics ? Clock::now() : Clock::time_point{};
+    if (diagnostics) ++diagnostics->repair_calls;
+    const auto ranking_key = [deficit_guided](RepairKey key) {
+        if (!deficit_guided) key.deficit = 0;
+        return key;
+    };
     const int max_steps = std::max(20, 8 * state.graph().n);
     for (int step = 0; step < max_steps && !state.feasible(); ++step) {
-        const RepairKey current = state.repair_key();
+        const RepairKey current = ranking_key(state.repair_key());
         bool found = false;
         RepairKey best_key;
         std::vector<std::pair<int, std::uint8_t>> best_moves;
@@ -131,7 +138,8 @@ void repair(EvaluationState& state, std::mt19937_64& rng) {
                 if (label == old_label) {
                     continue;
                 }
-                const auto candidate = state.repair_key_after_move(vertex, label);
+                const auto candidate = ranking_key(state.repair_key_after_move(vertex, label));
+                if (diagnostics) ++diagnostics->repair_evaluations;
                 if (!(candidate < current)) {
                     continue;
                 }
@@ -150,14 +158,19 @@ void repair(EvaluationState& state, std::mt19937_64& rng) {
         std::uniform_int_distribution<std::size_t> choice(0, best_moves.size() - 1);
         const auto move = best_moves[choice(rng)];
         state.apply_move(move.first, move.second);
+        if (diagnostics) ++diagnostics->repair_steps;
     }
 
     if (!state.feasible()) {
+        if (diagnostics) ++diagnostics->fallback_count;
         auto fallback = greedy_construct(state.graph(), state.k(), rng, state.mode());
         for (int vertex = 0; vertex < state.graph().n; ++vertex) {
             state.apply_move(vertex, fallback[vertex]);
         }
+    } else if (diagnostics) {
+        ++diagnostics->repairs_without_fallback;
     }
+    if (diagnostics) diagnostics->repair_seconds += seconds_since(repair_start);
 }
 
 void reduce_feasible(EvaluationState& state, std::mt19937_64& rng) {
@@ -187,7 +200,8 @@ void reduce_feasible(EvaluationState& state, std::mt19937_64& rng) {
 void local_search(EvaluationState& state,
                   LocalSearchType type,
                   std::mt19937_64& rng,
-                  const Clock::time_point& deadline) {
+                  const Clock::time_point& deadline,
+                  SearchDiagnostics* diagnostics) {
     if (!state.feasible()) {
         repair(state, rng);
     }
@@ -213,6 +227,7 @@ void local_search(EvaluationState& state,
                     continue;
                 }
                 const auto candidate = state.key_after_move(vertex, label);
+                if (diagnostics) ++diagnostics->local_search_evaluations;
                 if (candidate < best_key) {
                     found = true;
                     best_vertex = vertex;
@@ -379,9 +394,9 @@ SolveResult solve_vns(const MultiplexGraph& graph, int k, const VNSConfig& confi
     }
     EvaluationState current(graph, std::move(initial), k, config.mode);
     if (!current.feasible()) {
-        repair(current, rng);
+        repair(current, rng, config.deficit_guided_repair, config.diagnostics);
     }
-    local_search(current, config.local_search, rng, deadline);
+    local_search(current, config.local_search, rng, deadline, config.diagnostics);
     auto best_labels = current.labels();
     EvalKey best_key = current.key();
     double time_to_best = seconds_since(start);
@@ -397,6 +412,7 @@ SolveResult solve_vns(const MultiplexGraph& graph, int k, const VNSConfig& confi
         for (int kappa = std::max(1, config.kappa_min);
              kappa <= std::min(config.kappa_max, graph.n) && before_deadline(deadline);
              ++kappa) {
+            if (config.diagnostics) ++config.diagnostics->shaking_attempts;
             auto candidate_labels = current.labels();
             std::vector<int> positions(graph.n);
             std::iota(positions.begin(), positions.end(), 0);
@@ -411,13 +427,17 @@ SolveResult solve_vns(const MultiplexGraph& graph, int k, const VNSConfig& confi
 
             EvaluationState candidate(graph, std::move(candidate_labels), k, config.mode);
             if (!candidate.feasible()) {
-                repair(candidate, rng);
+                repair(candidate, rng, config.deficit_guided_repair, config.diagnostics);
             }
-            local_search(candidate, config.local_search, rng, deadline);
+            local_search(candidate, config.local_search, rng, deadline, config.diagnostics);
             const EvalKey candidate_key = candidate.key();
             const EvalKey current_key = current.key();
             if (candidate_key < current_key ||
                 (candidate_key == current_key && probability(rng) < tie_probability)) {
+                if (config.diagnostics) {
+                    if (candidate_key == current_key) ++config.diagnostics->accepted_ties;
+                    else ++config.diagnostics->accepted_improvements;
+                }
                 for (int v = 0; v < graph.n; ++v) {
                     current.apply_move(v, candidate.labels()[v]);
                 }
@@ -427,22 +447,25 @@ SolveResult solve_vns(const MultiplexGraph& graph, int k, const VNSConfig& confi
                     best_labels = candidate.labels();
                     time_to_best = seconds_since(start);
                     no_improve = 0;
-                    tie_probability = std::max(0.2, tie_probability * 0.9);
+                    if (config.adaptive_tie_probability)
+                        tie_probability = std::max(0.2, tie_probability * 0.9);
                 } else {
                     ++no_improve;
-                    tie_probability = std::min(0.95, tie_probability + 0.01);
+                    if (config.adaptive_tie_probability)
+                        tie_probability = std::min(0.95, tie_probability + 0.01);
                 }
                 break;
             }
             ++no_improve;
         }
-        if (!accepted) {
+        if (!accepted && config.adaptive_tie_probability) {
             tie_probability = std::min(0.95, tie_probability + 0.01);
         }
         ++iterations;
     }
 
     EvaluationState final_state(graph, best_labels, k, config.mode);
+    if (config.diagnostics) config.diagnostics->final_tie_probability = tie_probability;
     const double elapsed = seconds_since(start);
     return {best_labels, final_state.weight(), final_state.valid_layer_count(),
             iterations, elapsed, time_to_best, final_state.feasible()};
